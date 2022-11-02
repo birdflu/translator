@@ -29,7 +29,7 @@ export class Geometry {
     style: string, nameFormat: any,
     top: number, paddingHeight: number, bottom: number,
     left: number, paddingWidth: number, right: number,
-    marginTop: number, marginBottom: number, marginLeft: number, margin: number
+    marginTop: number, marginBottom: number, marginLeft: number, marginRight: number
   }) {
     this.style = value.style;
     this.nameFormat = value.nameFormat;
@@ -42,7 +42,7 @@ export class Geometry {
     this.marginTop = value.marginTop;
     this.marginBottom = value.marginBottom;
     this.marginLeft = value.marginLeft;
-    this.marginRight = value.margin;
+    this.marginRight = value.marginRight;
     this.layout = new Layout(this);
   }
 

@@ -1,11 +1,9 @@
 import settings from "../settings.json";
 import { IYAMLRoot } from "./iYAML";
-import { Layer } from "./layer";
 import { Obj } from "./obj";
 
 export default class Architecture {
-  id = "THIS_DIAGRAM";
-  layers: Layer[] = [];
+  id = "DIAGRAM";
   objects: Obj[] = [];
   kinds: string[] = [];
   private meta: IYAMLRoot;
@@ -15,22 +13,16 @@ export default class Architecture {
     this.setKinds();
 
     if (this.meta.elements) {
-      this.addLayerObjects();
-    }
-  }
-
-  private addLayerObjects() {
-    for (let kind of this.kinds) {
-      this.addLayer(kind);
+      this.kinds.forEach((kind) => this.addObject(kind));
     }
   }
 
   private setKinds(id?: string) {
     const elements = id
-      ? this.meta.elements.filter(o => o.parentYamlId == id)
-      : this.meta.elements.filter(o => !o.parentYamlId);
+      ? this.meta.elements.filter((o) => o.parentYamlId == id)
+      : this.meta.elements.filter((o) => !o.parentYamlId);
 
-    for (let element of elements) {
+    for (const element of elements) {
       if (this.kinds.indexOf(element.kind) < 0) {
         this.kinds.push(element.kind);
       }
@@ -43,19 +35,10 @@ export default class Architecture {
     }
   }
 
-
-  private addLayer(kind: string) {
-    const mLayerObjects = this.meta.elements.filter(o => o.kind == kind);
-
-    if (!mLayerObjects) {
-      return;
-    }
-
-    for (let mLayer of mLayerObjects) {
-      const layer = new Layer(mLayer, this);
-      this.layers.push(layer);
-      this.objects.push(layer);
-    }
+  private addObject(kind: string) {
+    this.meta.elements
+      .filter((o) => o.kind == kind)
+      .forEach((mObject) => this.objects.push(new Obj(mObject, this)));
   }
 
 
@@ -64,9 +47,9 @@ export default class Architecture {
   }
 
   public getObjectByKind(): Map<string, Obj[]> {
-    let map: Map<string, Obj[]> = new Map<string, Obj[]>();
+    const map: Map<string, Obj[]> = new Map<string, Obj[]>();
 
-    for (let obj of this.objects) {
+    for (const obj of this.objects) {
       if (!map.get(obj.kind)) {
         map.set(obj.kind, [obj]);
       } else {
@@ -77,9 +60,9 @@ export default class Architecture {
   }
 
   public getObjectsByLevel(): Map<number, Obj[]> {
-    let map: Map<number, Obj[]> = new Map<number, Obj[]>();
+    const map: Map<number, Obj[]> = new Map<number, Obj[]>();
 
-    for (let obj of this.objects) {
+    for (const obj of this.objects) {
       if (!map.get(obj.hierarchyLevel)) {
         map.set(obj.hierarchyLevel, [obj]);
       } else {
@@ -99,7 +82,7 @@ export default class Architecture {
 
   public getLayerChildren(parent: Obj) {
     return this.getChildren(parent).filter((o) =>
-      this.kinds.some(e => e == o.kind)).sort(
+      this.kinds.some((e) => e == o.kind)).sort(
       ((a, b) => b.geometry.layout.marginWidth - a.geometry.layout.marginWidth));
   }
 
@@ -109,18 +92,16 @@ export default class Architecture {
 
   public getKindStatistic() {
     let result = "";
-    for (let entry of this.getObjectByKind().entries()) {
-      result = `${result + entry[1].length} ${entry[0]}
-`;
+    for (const entry of this.getObjectByKind().entries()) {
+      result = `${result + entry[1].length} ${entry[0]}`;
     }
     return result;
   }
 
   public getLevelStatistic() {
     let result = "";
-    for (let entry of this.getObjectsByLevel().entries()) {
-      result = `${result + entry[1].length} on ${entry[0]}th level
-`;
+    for (const entry of this.getObjectsByLevel().entries()) {
+      result = `${result + entry[1].length} on ${entry[0]}th level`;
     }
     return result;
   }
@@ -135,7 +116,6 @@ export default class Architecture {
 
   public toString() {
     return `
-layer:[${this.layers.filter(o => o.kind == this.kinds[0])}]   
 objects:[${this.objects.map((o: Obj) => o.toSimpleString()).reduce((a, b) => a + "," + b, "")}]`
   }
 }

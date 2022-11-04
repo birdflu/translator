@@ -46,7 +46,7 @@ export default class Architecture {
     return this.objects.find((o) => o.id == id);
   }
 
-  public getObjectByKind(): Map<string, Obj[]> {
+  public getObjectsByKind(): Map<string, Obj[]> {
     const map: Map<string, Obj[]> = new Map<string, Obj[]>();
 
     for (const obj of this.objects) {
@@ -86,24 +86,16 @@ export default class Architecture {
       ((a, b) => b.geometry.layout.marginWidth - a.geometry.layout.marginWidth));
   }
 
-  public getObjectsOnLevel(level: number) {
-    return this.getObjectsByLevel().get(level);
-  }
-
   public getKindStatistic() {
-    let result = "";
-    for (const entry of this.getObjectByKind().entries()) {
-      result = `${result + entry[1].length} ${entry[0]}`;
-    }
-    return result;
+    return [...this.getObjectsByKind().entries()]
+      .map((entry) => `${entry[1].length} ${entry[0]}\n`)
+      .reduce((e1, e2) => e1 + e2)
   }
 
   public getLevelStatistic() {
-    let result = "";
-    for (const entry of this.getObjectsByLevel().entries()) {
-      result = `${result + entry[1].length} on ${entry[0]}th level`;
-    }
-    return result;
+    return [...this.getObjectsByKind().entries()]
+      .map((entry) => `${entry[1].length} on ${entry[0]}th level\n`)
+      .reduce((e1, e2) => e1 + e2)
   }
 
   public log() {

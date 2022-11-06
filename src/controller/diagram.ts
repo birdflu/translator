@@ -1,7 +1,7 @@
 import * as express from 'express';
-import {DiagramTranslator} from "../translator/diagramTranslator";
-
-export enum DiagramType {NESTED}
+import * as fs from "fs";
+import { DiagramTranslator } from "../translator/diagramTranslator";
+import { compress } from "../utils/compress";
 
 export default class Diagram {
   public path = '/diagram';
@@ -16,15 +16,15 @@ export default class Diagram {
   }
 
   createAPost = (request: express.Request, response: express.Response) => {
-    const translator = new DiagramTranslator();
-    const result = translator.getDocument(request.body, DiagramType.NESTED);
+    const result = new DiagramTranslator().getDiagram(request.body);
+    const viewerUrl = 'https://viewer.diagrams.net/';
+    const parameters = 'tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=diagram';
+    const url = `${viewerUrl}?${parameters}#R${encodeURIComponent(compress(result))}`;
     writeToFile('./data/diagram.xml', result);
-    response.send("OK\n");
+    writeToFile('./data/url.txt', url);
+    response.send(url);
 
     function writeToFile(path: string, data: any) {
-      // eslint-disable-next-line @typescript-eslint/no-var-requires
-      const fs = require('fs');
-
       fs.writeFile(path, data, function (err) {
         if (err) {
           console.log(err);

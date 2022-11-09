@@ -1,7 +1,7 @@
 {
   "name": "translator",
-  "version": "1.0.10",
-  "description": "App transform yaml info to draw.io diagram",
+  "version": "1.0.11",
+  "description": "App transform json info to draw.io diagram",
   "main": "main.js",
   "scripts": {
     "start": "ts-node ./src/server.ts"
@@ -11,7 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.12",
-    "@types/js-yaml": "^4.0.1",
     "@types/node": "^15.6.0",
     "@types/xml": "^1.0.5",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
@@ -21,7 +20,6 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "js-yaml": "^4.1.0",
     "xml": "^1.0.1",
     "pako": "^2.0.4"
   }

@@ -15,7 +15,7 @@ export default class Diagram {
     this.router.post(this.path, this.createAPost);
   }
 
-  createAPost = (request: express.Request, response: express.Response) => {
+  createAPost = (request: express.Request, response: express.Response) => {``
     const result = new DiagramTranslator().getDiagram(request.body);
     const viewerUrl = 'https://viewer.diagrams.net/';
     const parameters = 'tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=diagram';

@@ -1,0 +1,5140 @@
+{
+  "elements": [
+    {
+      "kind": "Sales",
+      "name": "Sales",
+      "yamlId": "Sales",
+      "parentYamlId": null
+    },
+    {
+      "kind": "Manager",
+      "name": "Smith",
+      "yamlId": "Smith",
+      "parentYamlId": "Sales"
+    },
+    {
+      "kind": "Client",
+      "name": "Company_2",
+      "yamlId": "Smith@Company_2",
+      "parentYamlId": "Smith",
+      "type": null,
+      "total": 23000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_3",
+      "yamlId": "Smith@Company_2@Company_3",
+      "parentYamlId": "Smith@Company_2",
+      "type": null,
+      "total": 15800
+    },
+    {
+      "kind": "Client",
+      "name": "Company_4",
+      "yamlId": "Smith@Company_4",
+      "parentYamlId": "Smith",
+      "type": null,
+      "total": 985496.5
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_5",
+      "yamlId": "Smith@Company_4@Company_5",
+      "parentYamlId": "Smith@Company_4",
+      "type": "CONCRETE",
+      "total": 865638
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Smith@Company_4@Company_6",
+      "parentYamlId": "Smith@Company_4",
+      "type": "AQUA",
+      "total": 5729.76
+    },
+    {
+      "kind": "Client",
+      "name": "Company_7",
+      "yamlId": "Smith@Company_7",
+      "parentYamlId": "Smith",
+      "type": null,
+      "total": 20179.61
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Smith@Company_7@Company_6",
+      "parentYamlId": "Smith@Company_7",
+      "type": "AQUA",
+      "total": 9813.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_8",
+      "yamlId": "Smith@Company_7@Company_8",
+      "parentYamlId": "Smith@Company_7",
+      "type": "INSTRUMENT",
+      "total": 1151
+    },
+    {
+      "kind": "Client",
+      "name": "Company_9",
+      "yamlId": "Smith@Company_9",
+      "parentYamlId": "Smith",
+      "type": null,
+      "total": 148462.05
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_10",
+      "yamlId": "Smith@Company_9@Company_10",
+      "parentYamlId": "Smith@Company_9",
+      "type": null,
+      "total": 34790
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Smith@Company_9@Company_6",
+      "parentYamlId": "Smith@Company_9",
+      "type": "AQUA",
+      "total": 4037.4
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_11",
+      "yamlId": "Smith@Company_9@Company_11",
+      "parentYamlId": "Smith@Company_9",
+      "type": null,
+      "total": 3930.8
+    },
+    {
+      "kind": "Client",
+      "name": "Company_12",
+      "yamlId": "Smith@Company_12",
+      "parentYamlId": "Smith",
+      "type": null,
+      "total": 573756.28
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_13",
+      "yamlId": "Smith@Company_12@Company_13",
+      "parentYamlId": "Smith@Company_12",
+      "type": "AQUA",
+      "total": 26753.46
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_14",
+      "yamlId": "Smith@Company_12@Company_14",
+      "parentYamlId": "Smith@Company_12",
+      "type": null,
+      "total": 143065.49
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_15",
+      "yamlId": "Smith@Company_12@Company_15",
+      "parentYamlId": "Smith@Company_12",
+      "type": null,
+      "total": 70770.97
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Smith@Company_12@Company_6",
+      "parentYamlId": "Smith@Company_12",
+      "type": "AQUA",
+      "total": 99595.92000000001
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_16",
+      "yamlId": "Smith@Company_12@Company_16",
+      "parentYamlId": "Smith@Company_12",
+      "type": null,
+      "total": 4940.74
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_17",
+      "yamlId": "Smith@Company_12@Company_17",
+      "parentYamlId": "Smith@Company_12",
+      "type": null,
+      "total": 34000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_18",
+      "yamlId": "Smith@Company_12@Company_18",
+      "parentYamlId": "Smith@Company_12",
+      "type": null,
+      "total": 3773.99
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_19",
+      "yamlId": "Smith@Company_12@Company_19",
+      "parentYamlId": "Smith@Company_12",
+      "type": null,
+      "total": 10709.5
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_20",
+      "yamlId": "Smith@Company_12@Company_20",
+      "parentYamlId": "Smith@Company_12",
+      "type": null,
+      "total": 4389
+    },
+    {
+      "kind": "Client",
+      "name": "Company_21",
+      "yamlId": "Smith@Company_21",
+      "parentYamlId": "Smith",
+      "type": null,
+      "total": 162768.4
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_22",
+      "yamlId": "Smith@Company_21@Company_22",
+      "parentYamlId": "Smith@Company_21",
+      "type": null,
+      "total": 134380
+    },
+    {
+      "kind": "Client",
+      "name": "Company_23",
+      "yamlId": "Smith@Company_23",
+      "parentYamlId": "Smith",
+      "type": null,
+      "total": 336223.63
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_24",
+      "yamlId": "Smith@Company_23@Company_24",
+      "parentYamlId": "Smith@Company_23",
+      "type": null,
+      "total": 8296.8
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_25",
+      "yamlId": "Smith@Company_23@Company_25",
+      "parentYamlId": "Smith@Company_23",
+      "type": null,
+      "total": 36700
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Smith@Company_23@Company_6",
+      "parentYamlId": "Smith@Company_23",
+      "type": "AQUA",
+      "total": 76110
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_26",
+      "yamlId": "Smith@Company_23@Company_26",
+      "parentYamlId": "Smith@Company_23",
+      "type": null,
+      "total": 19992
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_27",
+      "yamlId": "Smith@Company_23@Company_27",
+      "parentYamlId": "Smith@Company_23",
+      "type": "METAL",
+      "total": 139436.25
+    },
+    {
+      "kind": "Client",
+      "name": "Company_28",
+      "yamlId": "Smith@Company_28",
+      "parentYamlId": "Smith",
+      "type": null,
+      "total": 813303.89
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Smith@Company_28@Company_6",
+      "parentYamlId": "Smith@Company_28",
+      "type": "AQUA",
+      "total": 56988.72
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Smith@Company_28@Company_29",
+      "parentYamlId": "Smith@Company_28",
+      "type": "METAL",
+      "total": 44263.83
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_14",
+      "yamlId": "Smith@Company_28@Company_14",
+      "parentYamlId": "Smith@Company_28",
+      "type": null,
+      "total": 76739.01999999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_30",
+      "yamlId": "Smith@Company_28@Company_30",
+      "parentYamlId": "Smith@Company_28",
+      "type": null,
+      "total": 13822.970000000001
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_31",
+      "yamlId": "Smith@Company_28@Company_31",
+      "parentYamlId": "Smith@Company_28",
+      "type": "TUBE",
+      "total": 526594.42
+    },
+    {
+      "kind": "Client",
+      "name": "Company_32",
+      "yamlId": "Smith@Company_32",
+      "parentYamlId": "Smith",
+      "type": null,
+      "total": 69000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_5",
+      "yamlId": "Smith@Company_32@Company_5",
+      "parentYamlId": "Smith@Company_32",
+      "type": "CONCRETE",
+      "total": 59700
+    },
+    {
+      "kind": "Client",
+      "name": "Company_33",
+      "yamlId": "Smith@Company_33",
+      "parentYamlId": "Smith",
+      "type": null,
+      "total": 66000.09
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_22",
+      "yamlId": "Smith@Company_33@Company_22",
+      "parentYamlId": "Smith@Company_33",
+      "type": null,
+      "total": 53229
+    },
+    {
+      "kind": "Client",
+      "name": "Company_34",
+      "yamlId": "Smith@Company_34",
+      "parentYamlId": "Smith",
+      "type": null,
+      "total": 2988274.16
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_35",
+      "yamlId": "Smith@Company_34@Company_35",
+      "parentYamlId": "Smith@Company_34",
+      "type": null,
+      "total": 39650
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_36",
+      "yamlId": "Smith@Company_34@Company_36",
+      "parentYamlId": "Smith@Company_34",
+      "type": "FIRE",
+      "total": 8505.54
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Smith@Company_34@Company_29",
+      "parentYamlId": "Smith@Company_34",
+      "type": "METAL",
+      "total": 1758.87
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_37",
+      "yamlId": "Smith@Company_34@Company_37",
+      "parentYamlId": "Smith@Company_34",
+      "type": "PLASTIC",
+      "total": 587656.2
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_38",
+      "yamlId": "Smith@Company_34@Company_38",
+      "parentYamlId": "Smith@Company_34",
+      "type": "TUBE",
+      "total": 40000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Smith@Company_34@Company_6",
+      "parentYamlId": "Smith@Company_34",
+      "type": "AQUA",
+      "total": 26088.36
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_39",
+      "yamlId": "Smith@Company_34@Company_39",
+      "parentYamlId": "Smith@Company_34",
+      "type": null,
+      "total": 213629.3
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_17",
+      "yamlId": "Smith@Company_34@Company_17",
+      "parentYamlId": "Smith@Company_34",
+      "type": null,
+      "total": 34400
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_40",
+      "yamlId": "Smith@Company_34@Company_40",
+      "parentYamlId": "Smith@Company_34",
+      "type": null,
+      "total": 10424.38
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_41",
+      "yamlId": "Smith@Company_34@Company_41",
+      "parentYamlId": "Smith@Company_34",
+      "type": "FASTENER",
+      "total": 3696.98
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_42",
+      "yamlId": "Smith@Company_34@Company_42",
+      "parentYamlId": "Smith@Company_34",
+      "type": "AQUA",
+      "total": 10595.4
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_43",
+      "yamlId": "Smith@Company_34@Company_43",
+      "parentYamlId": "Smith@Company_34",
+      "type": "TUBE",
+      "total": 334414.08
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_44",
+      "yamlId": "Smith@Company_34@Company_44",
+      "parentYamlId": "Smith@Company_34",
+      "type": "CONCRETE",
+      "total": 253290
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_45",
+      "yamlId": "Smith@Company_34@Company_45",
+      "parentYamlId": "Smith@Company_34",
+      "type": null,
+      "total": 10440
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_46",
+      "yamlId": "Smith@Company_34@Company_46",
+      "parentYamlId": "Smith@Company_34",
+      "type": null,
+      "total": 2500
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_47",
+      "yamlId": "Smith@Company_34@Company_47",
+      "parentYamlId": "Smith@Company_34",
+      "type": null,
+      "total": 59400
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_48",
+      "yamlId": "Smith@Company_34@Company_48",
+      "parentYamlId": "Smith@Company_34",
+      "type": "METAL",
+      "total": 207765
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_49",
+      "yamlId": "Smith@Company_34@Company_49",
+      "parentYamlId": "Smith@Company_34",
+      "type": null,
+      "total": 201797.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_50",
+      "yamlId": "Smith@Company_34@Company_50",
+      "parentYamlId": "Smith@Company_34",
+      "type": null,
+      "total": 133152.8
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_51",
+      "yamlId": "Smith@Company_34@Company_51",
+      "parentYamlId": "Smith@Company_34",
+      "type": null,
+      "total": 10320
+    },
+    {
+      "kind": "Client",
+      "name": "Company_52",
+      "yamlId": "Smith@Company_52",
+      "parentYamlId": "Smith",
+      "type": null,
+      "total": 29769.7
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_53",
+      "yamlId": "Smith@Company_52@Company_53",
+      "parentYamlId": "Smith@Company_52",
+      "type": "TUBE",
+      "total": 21769.68
+    },
+    {
+      "kind": "Manager",
+      "name": "Roger",
+      "yamlId": "Roger",
+      "parentYamlId": "Sales"
+    },
+    {
+      "kind": "Client",
+      "name": "Company_55",
+      "yamlId": "Roger@Company_55",
+      "parentYamlId": "Roger",
+      "type": null,
+      "total": 160800
+    },
+    {
+      "kind": "Client",
+      "name": "Company_56",
+      "yamlId": "Roger@Company_56",
+      "parentYamlId": "Roger",
+      "type": null,
+      "total": 3500
+    },
+    {
+      "kind": "Manager",
+      "name": "Mary",
+      "yamlId": "Mary",
+      "parentYamlId": "Sales"
+    },
+    {
+      "kind": "Client",
+      "name": "Company_58",
+      "yamlId": "Mary@Company_58",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 3703212.68
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_37",
+      "yamlId": "Mary@Company_58@Company_37",
+      "parentYamlId": "Mary@Company_58",
+      "type": "PLASTIC",
+      "total": 5073193.600000001
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_59",
+      "yamlId": "Mary@Company_58@Company_59",
+      "parentYamlId": "Mary@Company_58",
+      "type": "PLASTIC",
+      "total": 236848
+    },
+    {
+      "kind": "Client",
+      "name": "Company_60",
+      "yamlId": "Mary@Company_60",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 28866737.68
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_61",
+      "yamlId": "Mary@Company_60@Company_61",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 7842.51
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_62",
+      "yamlId": "Mary@Company_60@Company_62",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 22490
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_63",
+      "yamlId": "Mary@Company_60@Company_63",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 147858.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_64",
+      "yamlId": "Mary@Company_60@Company_64",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 470743
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_65",
+      "yamlId": "Mary@Company_60@Company_65",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 2818.08
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_66",
+      "yamlId": "Mary@Company_60@Company_66",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 2451347.4800000004
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_67",
+      "yamlId": "Mary@Company_60@Company_67",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 322417.73
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_68",
+      "yamlId": "Mary@Company_60@Company_68",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 96142.5
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_69",
+      "yamlId": "Mary@Company_60@Company_69",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 338545.24
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_70",
+      "yamlId": "Mary@Company_60@Company_70",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 1216573.4000000001
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_71",
+      "yamlId": "Mary@Company_60@Company_71",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 35679.1
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Mary@Company_60@Company_6",
+      "parentYamlId": "Mary@Company_60",
+      "type": "AQUA",
+      "total": 1000480.7100000001
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Mary@Company_60@Company_29",
+      "parentYamlId": "Mary@Company_60",
+      "type": "METAL",
+      "total": 1230325.1800000002
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_72",
+      "yamlId": "Mary@Company_60@Company_72",
+      "parentYamlId": "Mary@Company_60",
+      "type": "FASTENER",
+      "total": 628725.8999999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_73",
+      "yamlId": "Mary@Company_60@Company_73",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 49499.1
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_74",
+      "yamlId": "Mary@Company_60@Company_74",
+      "parentYamlId": "Mary@Company_60",
+      "type": "ELECTRICITY",
+      "total": 385761.57999999996
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_8",
+      "yamlId": "Mary@Company_60@Company_8",
+      "parentYamlId": "Mary@Company_60",
+      "type": "INSTRUMENT",
+      "total": 513295
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_75",
+      "yamlId": "Mary@Company_60@Company_75",
+      "parentYamlId": "Mary@Company_60",
+      "type": "METAL",
+      "total": 328347.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_10",
+      "yamlId": "Mary@Company_60@Company_10",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 24692
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_76",
+      "yamlId": "Mary@Company_60@Company_76",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 61905.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_77",
+      "yamlId": "Mary@Company_60@Company_77",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 201627.42
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_78",
+      "yamlId": "Mary@Company_60@Company_78",
+      "parentYamlId": "Mary@Company_60",
+      "type": "ELECTRICITY",
+      "total": 2461608.08
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_79",
+      "yamlId": "Mary@Company_60@Company_79",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 8083.2
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_80",
+      "yamlId": "Mary@Company_60@Company_80",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 33621.759999999995
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_41",
+      "yamlId": "Mary@Company_60@Company_41",
+      "parentYamlId": "Mary@Company_60",
+      "type": "FASTENER",
+      "total": 10052.98
+    },
+    {
+      "kind": "Supplier",
+      "name": "LLC_Company_22",
+      "yamlId": "Mary@Company_60@LLC_Company_22",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 504831.04
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_82",
+      "yamlId": "Mary@Company_60@Company_82",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 111450
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_83",
+      "yamlId": "Mary@Company_60@Company_83",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 32364.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_84",
+      "yamlId": "Mary@Company_60@Company_84",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 868256.94
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_85",
+      "yamlId": "Mary@Company_60@Company_85",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 25680
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_86",
+      "yamlId": "Mary@Company_60@Company_86",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 410620
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_87",
+      "yamlId": "Mary@Company_60@Company_87",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 1024379.4099999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_88",
+      "yamlId": "Mary@Company_60@Company_88",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 142532
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_89",
+      "yamlId": "Mary@Company_60@Company_89",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 457793.87
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_90",
+      "yamlId": "Mary@Company_60@Company_90",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 612322.83
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_91",
+      "yamlId": "Mary@Company_60@Company_91",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 317757
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_92",
+      "yamlId": "Mary@Company_60@Company_92",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 820521.1099999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_93",
+      "yamlId": "Mary@Company_60@Company_93",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 480636
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_19",
+      "yamlId": "Mary@Company_60@Company_19",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 48811
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_94",
+      "yamlId": "Mary@Company_60@Company_94",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 215260.41999999998
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_40",
+      "yamlId": "Mary@Company_60@Company_40",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 15815.65
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_95",
+      "yamlId": "Mary@Company_60@Company_95",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 11499.06
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_96",
+      "yamlId": "Mary@Company_60@Company_96",
+      "parentYamlId": "Mary@Company_60",
+      "type": "INSTRUMENT",
+      "total": 87466
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_97",
+      "yamlId": "Mary@Company_60@Company_97",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 69256.06
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_98",
+      "yamlId": "Mary@Company_60@Company_98",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 49840
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_99",
+      "yamlId": "Mary@Company_60@Company_99",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 12145.66
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_100",
+      "yamlId": "Mary@Company_60@Company_100",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 70221.69
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_101",
+      "yamlId": "Mary@Company_60@Company_101",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 110412
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_18",
+      "yamlId": "Mary@Company_60@Company_18",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 4128
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_102",
+      "yamlId": "Mary@Company_60@Company_102",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 7200
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_103",
+      "yamlId": "Mary@Company_60@Company_103",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 21631.94
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_104",
+      "yamlId": "Mary@Company_60@Company_104",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 45888
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_105",
+      "yamlId": "Mary@Company_60@Company_105",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 22206.2
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_106",
+      "yamlId": "Mary@Company_60@Company_106",
+      "parentYamlId": "Mary@Company_60",
+      "type": null,
+      "total": 84550
+    },
+    {
+      "kind": "Client",
+      "name": "Company_107",
+      "yamlId": "Mary@Company_107",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 13215391.990000004
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_19",
+      "yamlId": "Mary@Company_107@Company_19",
+      "parentYamlId": "Mary@Company_107",
+      "type": null,
+      "total": 304299.38
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Mary@Company_107@Company_6",
+      "parentYamlId": "Mary@Company_107",
+      "type": "AQUA",
+      "total": 1312654.5500000003
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_80",
+      "yamlId": "Mary@Company_107@Company_80",
+      "parentYamlId": "Mary@Company_107",
+      "type": null,
+      "total": 264095.48
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_71",
+      "yamlId": "Mary@Company_107@Company_71",
+      "parentYamlId": "Mary@Company_107",
+      "type": null,
+      "total": 50022.7
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_108",
+      "yamlId": "Mary@Company_107@Company_108",
+      "parentYamlId": "Mary@Company_107",
+      "type": "TUBE",
+      "total": 1076602.7
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_109",
+      "yamlId": "Mary@Company_107@Company_109",
+      "parentYamlId": "Mary@Company_107",
+      "type": null,
+      "total": 1847615.3900000001
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Mary@Company_107@Company_29",
+      "parentYamlId": "Mary@Company_107",
+      "type": "METAL",
+      "total": 3151695.65
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_110",
+      "yamlId": "Mary@Company_107@Company_110",
+      "parentYamlId": "Mary@Company_107",
+      "type": "METAL",
+      "total": 186030
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_41",
+      "yamlId": "Mary@Company_107@Company_41",
+      "parentYamlId": "Mary@Company_107",
+      "type": "FASTENER",
+      "total": 8802.83
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_111",
+      "yamlId": "Mary@Company_107@Company_111",
+      "parentYamlId": "Mary@Company_107",
+      "type": null,
+      "total": 157140.11
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_72",
+      "yamlId": "Mary@Company_107@Company_72",
+      "parentYamlId": "Mary@Company_107",
+      "type": "FASTENER",
+      "total": 287797.5
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_112",
+      "yamlId": "Mary@Company_107@Company_112",
+      "parentYamlId": "Mary@Company_107",
+      "type": null,
+      "total": 504646.45
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_17",
+      "yamlId": "Mary@Company_107@Company_17",
+      "parentYamlId": "Mary@Company_107",
+      "type": null,
+      "total": 81840
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_40",
+      "yamlId": "Mary@Company_107@Company_40",
+      "parentYamlId": "Mary@Company_107",
+      "type": null,
+      "total": 41765.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "LLC_Company_22",
+      "yamlId": "Mary@Company_107@LLC_Company_22",
+      "parentYamlId": "Mary@Company_107",
+      "type": null,
+      "total": 32243.22
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_66",
+      "yamlId": "Mary@Company_107@Company_66",
+      "parentYamlId": "Mary@Company_107",
+      "type": null,
+      "total": 44484.84
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_113",
+      "yamlId": "Mary@Company_107@Company_113",
+      "parentYamlId": "Mary@Company_107",
+      "type": null,
+      "total": 20880
+    },
+    {
+      "kind": "Client",
+      "name": "Company_114",
+      "yamlId": "Mary@Company_114",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 21741941.83
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_37",
+      "yamlId": "Mary@Company_114@Company_37",
+      "parentYamlId": "Mary@Company_114",
+      "type": "PLASTIC",
+      "total": 10048448.2
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_115",
+      "yamlId": "Mary@Company_114@Company_115",
+      "parentYamlId": "Mary@Company_114",
+      "type": null,
+      "total": 7002386.9
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_116",
+      "yamlId": "Mary@Company_114@Company_116",
+      "parentYamlId": "Mary@Company_114",
+      "type": "CONCRETE",
+      "total": 3318034.74
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_117",
+      "yamlId": "Mary@Company_114@Company_117",
+      "parentYamlId": "Mary@Company_114",
+      "type": null,
+      "total": 63950
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_118",
+      "yamlId": "Mary@Company_114@Company_118",
+      "parentYamlId": "Mary@Company_114",
+      "type": null,
+      "total": 1022650.4
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_5",
+      "yamlId": "Mary@Company_114@Company_5",
+      "parentYamlId": "Mary@Company_114",
+      "type": "CONCRETE",
+      "total": 659514
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_3",
+      "yamlId": "Mary@Company_114@Company_3",
+      "parentYamlId": "Mary@Company_114",
+      "type": null,
+      "total": 872480
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_119",
+      "yamlId": "Mary@Company_114@Company_119",
+      "parentYamlId": "Mary@Company_114",
+      "type": null,
+      "total": 164093.16
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Mary@Company_114@Company_6",
+      "parentYamlId": "Mary@Company_114",
+      "type": "AQUA",
+      "total": 42480.479999999996
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_120",
+      "yamlId": "Mary@Company_114@Company_120",
+      "parentYamlId": "Mary@Company_114",
+      "type": null,
+      "total": 10560
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_121",
+      "yamlId": "Mary@Company_114@Company_121",
+      "parentYamlId": "Mary@Company_114",
+      "type": null,
+      "total": 732
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_43",
+      "yamlId": "Mary@Company_114@Company_43",
+      "parentYamlId": "Mary@Company_114",
+      "type": "TUBE",
+      "total": 857328.8
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_122",
+      "yamlId": "Mary@Company_114@Company_122",
+      "parentYamlId": "Mary@Company_114",
+      "type": "PLASTIC",
+      "total": 547099.52
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_123",
+      "yamlId": "Mary@Company_114@Company_123",
+      "parentYamlId": "Mary@Company_114",
+      "type": "AQUA",
+      "total": 216264.82
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_59",
+      "yamlId": "Mary@Company_114@Company_59",
+      "parentYamlId": "Mary@Company_114",
+      "type": "PLASTIC",
+      "total": 94891.2
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_124",
+      "yamlId": "Mary@Company_114@Company_124",
+      "parentYamlId": "Mary@Company_114",
+      "type": null,
+      "total": 600625
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_125",
+      "yamlId": "Mary@Company_114@Company_125",
+      "parentYamlId": "Mary@Company_114",
+      "type": null,
+      "total": 14295
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_126",
+      "yamlId": "Mary@Company_114@Company_126",
+      "parentYamlId": "Mary@Company_114",
+      "type": null,
+      "total": 4950
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_44",
+      "yamlId": "Mary@Company_114@Company_44",
+      "parentYamlId": "Mary@Company_114",
+      "type": "CONCRETE",
+      "total": 233000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_127",
+      "yamlId": "Mary@Company_114@Company_127",
+      "parentYamlId": "Mary@Company_114",
+      "type": null,
+      "total": 141659.14
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_19",
+      "yamlId": "Mary@Company_114@Company_19",
+      "parentYamlId": "Mary@Company_114",
+      "type": null,
+      "total": 785
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_128",
+      "yamlId": "Mary@Company_114@Company_128",
+      "parentYamlId": "Mary@Company_114",
+      "type": "METAL",
+      "total": 1900
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_8",
+      "yamlId": "Mary@Company_114@Company_8",
+      "parentYamlId": "Mary@Company_114",
+      "type": "INSTRUMENT",
+      "total": 18100
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_129",
+      "yamlId": "Mary@Company_114@Company_129",
+      "parentYamlId": "Mary@Company_114",
+      "type": null,
+      "total": 490295
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_130",
+      "yamlId": "Mary@Company_114@Company_130",
+      "parentYamlId": "Mary@Company_114",
+      "type": null,
+      "total": 549000
+    },
+    {
+      "kind": "Client",
+      "name": "Company_131",
+      "yamlId": "Mary@Company_131",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 14772553.879999997
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_132",
+      "yamlId": "Mary@Company_131@Company_132",
+      "parentYamlId": "Mary@Company_131",
+      "type": null,
+      "total": 22333
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_133",
+      "yamlId": "Mary@Company_131@Company_133",
+      "parentYamlId": "Mary@Company_131",
+      "type": null,
+      "total": 17899
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_134",
+      "yamlId": "Mary@Company_131@Company_134",
+      "parentYamlId": "Mary@Company_131",
+      "type": null,
+      "total": 22603
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_5",
+      "yamlId": "Mary@Company_131@Company_5",
+      "parentYamlId": "Mary@Company_131",
+      "type": "CONCRETE",
+      "total": 251126
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_3",
+      "yamlId": "Mary@Company_131@Company_3",
+      "parentYamlId": "Mary@Company_131",
+      "type": null,
+      "total": 85600
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Mary@Company_131@Company_29",
+      "parentYamlId": "Mary@Company_131",
+      "type": "METAL",
+      "total": 281375.44
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Mary@Company_131@Company_6",
+      "parentYamlId": "Mary@Company_131",
+      "type": "AQUA",
+      "total": 452.4
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_135",
+      "yamlId": "Mary@Company_131@Company_135",
+      "parentYamlId": "Mary@Company_131",
+      "type": null,
+      "total": 3552
+    },
+    {
+      "kind": "Client",
+      "name": "Company_136",
+      "yamlId": "Mary@Company_136",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 168812.94
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Mary@Company_136@Company_29",
+      "parentYamlId": "Mary@Company_136",
+      "type": "METAL",
+      "total": 148129.58
+    },
+    {
+      "kind": "Client",
+      "name": "Company_55",
+      "yamlId": "Mary@Company_55",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 862147.8400000001
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_137",
+      "yamlId": "Mary@Company_55@Company_137",
+      "parentYamlId": "Mary@Company_55",
+      "type": "AQUA",
+      "total": 295090
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_8",
+      "yamlId": "Mary@Company_55@Company_8",
+      "parentYamlId": "Mary@Company_55",
+      "type": "INSTRUMENT",
+      "total": 5253
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_37",
+      "yamlId": "Mary@Company_55@Company_37",
+      "parentYamlId": "Mary@Company_55",
+      "type": "PLASTIC",
+      "total": 259740
+    },
+    {
+      "kind": "Client",
+      "name": "LLC_(Company_57)",
+      "yamlId": "Mary@LLC_(Company_57)",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 120749.05
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Mary@LLC_(Company_57)@Company_29",
+      "parentYamlId": "Mary@LLC_(Company_57)",
+      "type": "METAL",
+      "total": 91494.23
+    },
+    {
+      "kind": "Client",
+      "name": "Company_139",
+      "yamlId": "Mary@Company_139",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 204066.13
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_37",
+      "yamlId": "Mary@Company_139@Company_37",
+      "parentYamlId": "Mary@Company_139",
+      "type": "PLASTIC",
+      "total": 162073.19999999998
+    },
+    {
+      "kind": "Client",
+      "name": "Company_140",
+      "yamlId": "Mary@Company_140",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 26208.96
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_141",
+      "yamlId": "Mary@Company_140@Company_141",
+      "parentYamlId": "Mary@Company_140",
+      "type": null,
+      "total": 6600
+    },
+    {
+      "kind": "Client",
+      "name": "Company_142",
+      "yamlId": "Mary@Company_142",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 1694121.6400000001
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Mary@Company_142@Company_29",
+      "parentYamlId": "Mary@Company_142",
+      "type": "METAL",
+      "total": 221982.22
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_75",
+      "yamlId": "Mary@Company_142@Company_75",
+      "parentYamlId": "Mary@Company_142",
+      "type": "METAL",
+      "total": 181782
+    },
+    {
+      "kind": "Client",
+      "name": "Company_143",
+      "yamlId": "Mary@Company_143",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 53161.19
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_123",
+      "yamlId": "Mary@Company_143@Company_123",
+      "parentYamlId": "Mary@Company_143",
+      "type": "AQUA",
+      "total": 41879.32
+    },
+    {
+      "kind": "Client",
+      "name": "Company_144",
+      "yamlId": "Mary@Company_144",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 2527754.88
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Mary@Company_998@Company_29",
+      "parentYamlId": "Mary@Company_144",
+      "type": "METAL",
+      "total": 504444.9
+    },
+    {
+      "kind": "Supplier",
+      "name": "LLC_Company_22",
+      "yamlId": "Mary@Company_998@LLC_Company_22",
+      "parentYamlId": "Mary@Company_144",
+      "type": null,
+      "total": 92130.83
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_5",
+      "yamlId": "Mary@Company_998@Company_5",
+      "parentYamlId": "Mary@Company_144",
+      "type": "CONCRETE",
+      "total": 250600
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_59",
+      "yamlId": "Mary@Company_998@Company_59",
+      "parentYamlId": "Mary@Company_144",
+      "type": "PLASTIC",
+      "total": 218256
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_145",
+      "yamlId": "Mary@Company_998@Company_145",
+      "parentYamlId": "Mary@Company_144",
+      "type": null,
+      "total": 16500
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_146",
+      "yamlId": "Mary@Company_998@Company_146",
+      "parentYamlId": "Mary@Company_144",
+      "type": null,
+      "total": 60135.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_72",
+      "yamlId": "Mary@Company_998@Company_72",
+      "parentYamlId": "Mary@Company_144",
+      "type": "FASTENER",
+      "total": 4300
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Mary@Company_998@Company_6",
+      "parentYamlId": "Mary@Company_144",
+      "type": "AQUA",
+      "total": 29304.719999999998
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_71",
+      "yamlId": "Mary@Company_998@Company_71",
+      "parentYamlId": "Mary@Company_144",
+      "type": null,
+      "total": 1767.5
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_147",
+      "yamlId": "Mary@Company_998@Company_147",
+      "parentYamlId": "Mary@Company_144",
+      "type": null,
+      "total": 2253.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_135",
+      "yamlId": "Mary@Company_998@Company_135",
+      "parentYamlId": "Mary@Company_144",
+      "type": null,
+      "total": 230952.5
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_66",
+      "yamlId": "Mary@Company_998@Company_66",
+      "parentYamlId": "Mary@Company_144",
+      "type": null,
+      "total": 378308
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_148",
+      "yamlId": "Mary@Company_998@Company_148",
+      "parentYamlId": "Mary@Company_144",
+      "type": null,
+      "total": 31857.9
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_113",
+      "yamlId": "Mary@Company_998@Company_113",
+      "parentYamlId": "Mary@Company_144",
+      "type": null,
+      "total": 20880
+    },
+    {
+      "kind": "Client",
+      "name": "Company_149",
+      "yamlId": "Mary@Company_149",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 499882.47000000003
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_97",
+      "yamlId": "Mary@Company_149@Company_97",
+      "parentYamlId": "Mary@Company_149",
+      "type": null,
+      "total": 141955.32
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_109",
+      "yamlId": "Mary@Company_149@Company_109",
+      "parentYamlId": "Mary@Company_149",
+      "type": null,
+      "total": 9115.35
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_150",
+      "yamlId": "Mary@Company_149@Company_150",
+      "parentYamlId": "Mary@Company_149",
+      "type": null,
+      "total": 7127.34
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_95",
+      "yamlId": "Mary@Company_149@Company_95",
+      "parentYamlId": "Mary@Company_149",
+      "type": null,
+      "total": 9067.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_121",
+      "yamlId": "Mary@Company_149@Company_121",
+      "parentYamlId": "Mary@Company_149",
+      "type": null,
+      "total": 4893
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_19",
+      "yamlId": "Mary@Company_149@Company_19",
+      "parentYamlId": "Mary@Company_149",
+      "type": null,
+      "total": 31331.55
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Mary@Company_149@Company_6",
+      "parentYamlId": "Mary@Company_149",
+      "type": "AQUA",
+      "total": 5078.4
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_40",
+      "yamlId": "Mary@Company_149@Company_40",
+      "parentYamlId": "Mary@Company_149",
+      "type": null,
+      "total": 118258.4
+    },
+    {
+      "kind": "Client",
+      "name": "Company_151",
+      "yamlId": "Mary@Company_151",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 791045.92
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_87",
+      "yamlId": "Mary@Company_151@Company_87",
+      "parentYamlId": "Mary@Company_151",
+      "type": null,
+      "total": 1190
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_66",
+      "yamlId": "Mary@Company_151@Company_66",
+      "parentYamlId": "Mary@Company_151",
+      "type": null,
+      "total": 445999.63
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_135",
+      "yamlId": "Mary@Company_151@Company_135",
+      "parentYamlId": "Mary@Company_151",
+      "type": null,
+      "total": 4358.4
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_148",
+      "yamlId": "Mary@Company_151@Company_148",
+      "parentYamlId": "Mary@Company_151",
+      "type": null,
+      "total": 41574.49999999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_79",
+      "yamlId": "Mary@Company_151@Company_79",
+      "parentYamlId": "Mary@Company_151",
+      "type": null,
+      "total": 51836.1
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_70",
+      "yamlId": "Mary@Company_151@Company_70",
+      "parentYamlId": "Mary@Company_151",
+      "type": null,
+      "total": 57859.2
+    },
+    {
+      "kind": "Client",
+      "name": "Company_152",
+      "yamlId": "Mary@Company_152",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 335268.65
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_64",
+      "yamlId": "Mary@Company_152@Company_64",
+      "parentYamlId": "Mary@Company_152",
+      "type": null,
+      "total": 214237
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_153",
+      "yamlId": "Mary@Company_152@Company_153",
+      "parentYamlId": "Mary@Company_152",
+      "type": null,
+      "total": 33000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_154",
+      "yamlId": "Mary@Company_152@Company_154",
+      "parentYamlId": "Mary@Company_152",
+      "type": null,
+      "total": 3314
+    },
+    {
+      "kind": "Client",
+      "name": "Company_155",
+      "yamlId": "Mary@Company_155",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 18325
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_116",
+      "yamlId": "Mary@Company_155@Company_116",
+      "parentYamlId": "Mary@Company_155",
+      "type": "CONCRETE",
+      "total": 16500
+    },
+    {
+      "kind": "Client",
+      "name": "Company_156",
+      "yamlId": "Mary@Company_156",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 363545.25
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_93",
+      "yamlId": "Mary@Company_156@Company_93",
+      "parentYamlId": "Mary@Company_156",
+      "type": null,
+      "total": 139860
+    },
+    {
+      "kind": "Client",
+      "name": "Company_14",
+      "yamlId": "Mary@Company_14",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 221830.65999999997
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_19",
+      "yamlId": "Mary@Company_14@Company_19",
+      "parentYamlId": "Mary@Company_14",
+      "type": null,
+      "total": 32492.5
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_41",
+      "yamlId": "Mary@Company_14@Company_41",
+      "parentYamlId": "Mary@Company_14",
+      "type": "FASTENER",
+      "total": 623.3
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_82",
+      "yamlId": "Mary@Company_14@Company_82",
+      "parentYamlId": "Mary@Company_14",
+      "type": null,
+      "total": 1012
+    },
+    {
+      "kind": "Supplier",
+      "name": "LLC_Company_22",
+      "yamlId": "Mary@Company_14@LLC_Company_22",
+      "parentYamlId": "Mary@Company_14",
+      "type": null,
+      "total": 148451.25
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Mary@Company_14@Company_29",
+      "parentYamlId": "Mary@Company_14",
+      "type": "METAL",
+      "total": 289619.96
+    },
+    {
+      "kind": "Client",
+      "name": "Company_157",
+      "yamlId": "Mary@Company_157",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 496029.02
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_59",
+      "yamlId": "Mary@Company_157@Company_59",
+      "parentYamlId": "Mary@Company_157",
+      "type": "PLASTIC",
+      "total": 1169.62
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_13",
+      "yamlId": "Mary@Company_157@Company_13",
+      "parentYamlId": "Mary@Company_157",
+      "type": "AQUA",
+      "total": 3019.22
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_135",
+      "yamlId": "Mary@Company_157@Company_135",
+      "parentYamlId": "Mary@Company_157",
+      "type": null,
+      "total": 19400
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_158",
+      "yamlId": "Mary@Company_157@Company_158",
+      "parentYamlId": "Mary@Company_157",
+      "type": "INSTRUMENT",
+      "total": 12010
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_159",
+      "yamlId": "Mary@Company_157@Company_159",
+      "parentYamlId": "Mary@Company_157",
+      "type": null,
+      "total": 20758
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_37",
+      "yamlId": "Mary@Company_157@Company_37",
+      "parentYamlId": "Mary@Company_157",
+      "type": "PLASTIC",
+      "total": 247173
+    },
+    {
+      "kind": "Client",
+      "name": "Company_160",
+      "yamlId": "Mary@Company_160",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 290998.08
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Mary@Company_160@Company_29",
+      "parentYamlId": "Mary@Company_160",
+      "type": "METAL",
+      "total": 289619.96
+    },
+    {
+      "kind": "Client",
+      "name": "Company_161",
+      "yamlId": "Mary@Company_161",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 660208.1799999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Mary@Company_161@Company_29",
+      "parentYamlId": "Mary@Company_161",
+      "type": "METAL",
+      "total": 248009.25
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_75",
+      "yamlId": "Mary@Company_161@Company_75",
+      "parentYamlId": "Mary@Company_161",
+      "type": "METAL",
+      "total": 310140
+    },
+    {
+      "kind": "Client",
+      "name": "Company_162",
+      "yamlId": "Mary@Company_162",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 527480.31
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_82",
+      "yamlId": "Mary@Company_162@Company_82",
+      "parentYamlId": "Mary@Company_162",
+      "type": null,
+      "total": 99735
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_14",
+      "yamlId": "Mary@Company_162@Company_14",
+      "parentYamlId": "Mary@Company_162",
+      "type": null,
+      "total": 49770.9
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_69",
+      "yamlId": "Mary@Company_162@Company_69",
+      "parentYamlId": "Mary@Company_162",
+      "type": null,
+      "total": 92050.76
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_119",
+      "yamlId": "Mary@Company_162@Company_119",
+      "parentYamlId": "Mary@Company_162",
+      "type": null,
+      "total": 26526
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_37",
+      "yamlId": "Mary@Company_162@Company_37",
+      "parentYamlId": "Mary@Company_162",
+      "type": "PLASTIC",
+      "total": 35292.619999999995
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_129",
+      "yamlId": "Mary@Company_162@Company_129",
+      "parentYamlId": "Mary@Company_162",
+      "type": null,
+      "total": 53095.5
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_123",
+      "yamlId": "Mary@Company_162@Company_123",
+      "parentYamlId": "Mary@Company_162",
+      "type": "AQUA",
+      "total": 50930.1
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Mary@Company_162@Company_6",
+      "parentYamlId": "Mary@Company_162",
+      "type": "AQUA",
+      "total": 1738.32
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Mary@Company_162@Company_29",
+      "parentYamlId": "Mary@Company_162",
+      "type": "METAL",
+      "total": 4455.2
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_163",
+      "yamlId": "Mary@Company_162@Company_163",
+      "parentYamlId": "Mary@Company_162",
+      "type": "FASTENER",
+      "total": 8246.91
+    },
+    {
+      "kind": "Client",
+      "name": "Company_164",
+      "yamlId": "Mary@Company_164",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 132019.8
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_19",
+      "yamlId": "Mary@Company_164@Company_19",
+      "parentYamlId": "Mary@Company_164",
+      "type": null,
+      "total": 37094.94
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Mary@Company_164@Company_6",
+      "parentYamlId": "Mary@Company_164",
+      "type": "AQUA",
+      "total": 3094.3199999999997
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_72",
+      "yamlId": "Mary@Company_164@Company_72",
+      "parentYamlId": "Mary@Company_164",
+      "type": "FASTENER",
+      "total": 67680
+    },
+    {
+      "kind": "Client",
+      "name": "Company_165",
+      "yamlId": "Mary@Company_165",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 45452.7
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Mary@Company_165@Company_29",
+      "parentYamlId": "Mary@Company_165",
+      "type": "METAL",
+      "total": 34591.65
+    },
+    {
+      "kind": "Client",
+      "name": "Company_166",
+      "yamlId": "Mary@Company_166",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 91947.84
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_70",
+      "yamlId": "Mary@Company_166@Company_70",
+      "parentYamlId": "Mary@Company_166",
+      "type": null,
+      "total": 78134.4
+    },
+    {
+      "kind": "Client",
+      "name": "Company_167",
+      "yamlId": "Mary@Company_167",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 279635.3
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Mary@Company_167@Company_6",
+      "parentYamlId": "Mary@Company_167",
+      "type": "AQUA",
+      "total": 10652.28
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_82",
+      "yamlId": "Mary@Company_167@Company_82",
+      "parentYamlId": "Mary@Company_167",
+      "type": null,
+      "total": 8156
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_8",
+      "yamlId": "Mary@Company_167@Company_8",
+      "parentYamlId": "Mary@Company_167",
+      "type": "INSTRUMENT",
+      "total": 24379
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_84",
+      "yamlId": "Mary@Company_167@Company_84",
+      "parentYamlId": "Mary@Company_167",
+      "type": null,
+      "total": 5925.36
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_72",
+      "yamlId": "Mary@Company_167@Company_72",
+      "parentYamlId": "Mary@Company_167",
+      "type": "FASTENER",
+      "total": 140054
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_148",
+      "yamlId": "Mary@Company_167@Company_148",
+      "parentYamlId": "Mary@Company_167",
+      "type": null,
+      "total": 28431
+    },
+    {
+      "kind": "Client",
+      "name": "Company_168",
+      "yamlId": "Mary@Company_168",
+      "parentYamlId": "Mary",
+      "type": null,
+      "total": 8530.2
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_169",
+      "yamlId": "Mary@Company_168@Company_169",
+      "parentYamlId": "Mary@Company_168",
+      "type": null,
+      "total": 4482
+    },
+    {
+      "kind": "Manager",
+      "name": "Lurk",
+      "yamlId": "Lurk",
+      "parentYamlId": "Sales"
+    },
+    {
+      "kind": "Client",
+      "name": "Company_171",
+      "yamlId": "Lurk@Company_171",
+      "parentYamlId": "Lurk",
+      "type": null,
+      "total": 37954.64
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_172",
+      "yamlId": "Lurk@Company_171@Company_172",
+      "parentYamlId": "Lurk@Company_171",
+      "type": null,
+      "total": 30004
+    },
+    {
+      "kind": "Client",
+      "name": "LLO-Company_168",
+      "yamlId": "Lurk@LLO-Company_168",
+      "parentYamlId": "Lurk",
+      "type": null,
+      "total": 77784
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_174",
+      "yamlId": "Lurk@LLO-Company_168@Company_174",
+      "parentYamlId": "Lurk@LLO-Company_168",
+      "type": null,
+      "total": 68784
+    },
+    {
+      "kind": "Client",
+      "name": "Company_175",
+      "yamlId": "Lurk@Company_175",
+      "parentYamlId": "Lurk",
+      "type": null,
+      "total": 97667.45999999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_176",
+      "yamlId": "Lurk@Company_175@Company_176",
+      "parentYamlId": "Lurk@Company_175",
+      "type": "FASTENER",
+      "total": 18225
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_177",
+      "yamlId": "Lurk@Company_175@Company_177",
+      "parentYamlId": "Lurk@Company_175",
+      "type": null,
+      "total": 29500
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Lurk@Company_175@Company_6",
+      "parentYamlId": "Lurk@Company_175",
+      "type": "AQUA",
+      "total": 16625.4
+    },
+    {
+      "kind": "Client",
+      "name": "Company_178",
+      "yamlId": "Lurk@Company_178",
+      "parentYamlId": "Lurk",
+      "type": null,
+      "total": 131756.97
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_179",
+      "yamlId": "Lurk@Company_178@Company_179",
+      "parentYamlId": "Lurk@Company_178",
+      "type": null,
+      "total": 77500
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Lurk@Company_178@Company_6",
+      "parentYamlId": "Lurk@Company_178",
+      "type": "AQUA",
+      "total": 17901.6
+    },
+    {
+      "kind": "Manager",
+      "name": "Leticia",
+      "yamlId": "Leticia",
+      "parentYamlId": "Sales"
+    },
+    {
+      "kind": "Client",
+      "name": "Company_181",
+      "yamlId": "Leticia@Company_181",
+      "parentYamlId": "Leticia",
+      "type": null,
+      "total": 249663.91999999998
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_182",
+      "yamlId": "Leticia@Company_181@Company_182",
+      "parentYamlId": "Leticia@Company_181",
+      "type": "METAL",
+      "total": 38835
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Leticia@Company_181@Company_6",
+      "parentYamlId": "Leticia@Company_181",
+      "type": "AQUA",
+      "total": 74578.32
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_65",
+      "yamlId": "Leticia@Company_181@Company_65",
+      "parentYamlId": "Leticia@Company_181",
+      "type": null,
+      "total": 6264
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_183",
+      "yamlId": "Leticia@Company_181@Company_183",
+      "parentYamlId": "Leticia@Company_181",
+      "type": null,
+      "total": 15134.47
+    },
+    {
+      "kind": "Client",
+      "name": "Company_184",
+      "yamlId": "Leticia@Company_184",
+      "parentYamlId": "Leticia",
+      "type": null,
+      "total": 157018.72
+    },
+    {
+      "kind": "Supplier",
+      "name": "LLC_Company_22",
+      "yamlId": "Leticia@Company_184@LLC_Company_22",
+      "parentYamlId": "Leticia@Company_184",
+      "type": null,
+      "total": 42629.1
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_14",
+      "yamlId": "Leticia@Company_184@Company_14",
+      "parentYamlId": "Leticia@Company_184",
+      "type": null,
+      "total": 29028.25
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Leticia@Company_184@Company_29",
+      "parentYamlId": "Leticia@Company_184",
+      "type": "METAL",
+      "total": 30601.93
+    },
+    {
+      "kind": "Client",
+      "name": "Company_17",
+      "yamlId": "Leticia@Company_17",
+      "parentYamlId": "Leticia",
+      "type": null,
+      "total": 715157.9
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_185",
+      "yamlId": "Leticia@Company_17@Company_185",
+      "parentYamlId": "Leticia@Company_17",
+      "type": "CONCRETE",
+      "total": 400000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_44",
+      "yamlId": "Leticia@Company_17@Company_44",
+      "parentYamlId": "Leticia@Company_17",
+      "type": "CONCRETE",
+      "total": 199350
+    },
+    {
+      "kind": "Client",
+      "name": "Company_186",
+      "yamlId": "Leticia@Company_186",
+      "parentYamlId": "Leticia",
+      "type": null,
+      "total": 85913.21
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_187",
+      "yamlId": "Leticia@Company_186@Company_187",
+      "parentYamlId": "Leticia@Company_186",
+      "type": "TUBE",
+      "total": 45000.61
+    },
+    {
+      "kind": "Client",
+      "name": "Company_188",
+      "yamlId": "Leticia@Company_188",
+      "parentYamlId": "Leticia",
+      "type": null,
+      "total": 1125376.01
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_189",
+      "yamlId": "Leticia@Company_188@Company_189",
+      "parentYamlId": "Leticia@Company_188",
+      "type": null,
+      "total": 972
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_125",
+      "yamlId": "Leticia@Company_188@Company_125",
+      "parentYamlId": "Leticia@Company_188",
+      "type": null,
+      "total": 4900
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_59",
+      "yamlId": "Leticia@Company_188@Company_59",
+      "parentYamlId": "Leticia@Company_188",
+      "type": "PLASTIC",
+      "total": 443251.37
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_5",
+      "yamlId": "Leticia@Company_188@Company_5",
+      "parentYamlId": "Leticia@Company_188",
+      "type": "CONCRETE",
+      "total": 14088
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_53",
+      "yamlId": "Leticia@Company_188@Company_53",
+      "parentYamlId": "Leticia@Company_188",
+      "type": "TUBE",
+      "total": 66893.92
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_190",
+      "yamlId": "Leticia@Company_188@Company_190",
+      "parentYamlId": "Leticia@Company_188",
+      "type": null,
+      "total": 84866.4
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_191",
+      "yamlId": "Leticia@Company_188@Company_191",
+      "parentYamlId": "Leticia@Company_188",
+      "type": null,
+      "total": 9088
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_192",
+      "yamlId": "Leticia@Company_188@Company_192",
+      "parentYamlId": "Leticia@Company_188",
+      "type": null,
+      "total": 80522
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Leticia@Company_188@Company_29",
+      "parentYamlId": "Leticia@Company_188",
+      "type": "METAL",
+      "total": 13348.5
+    },
+    {
+      "kind": "Client",
+      "name": "Company_193",
+      "yamlId": "Leticia@Company_193",
+      "parentYamlId": "Leticia",
+      "type": null,
+      "total": 76910.04999999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_59",
+      "yamlId": "Leticia@Company_193@Company_59",
+      "parentYamlId": "Leticia@Company_193",
+      "type": "PLASTIC",
+      "total": 22622
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_53",
+      "yamlId": "Leticia@Company_193@Company_53",
+      "parentYamlId": "Leticia@Company_193",
+      "type": "TUBE",
+      "total": 13979.19
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_191",
+      "yamlId": "Leticia@Company_193@Company_191",
+      "parentYamlId": "Leticia@Company_193",
+      "type": null,
+      "total": 1358
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Leticia@Company_193@Company_6",
+      "parentYamlId": "Leticia@Company_193",
+      "type": "AQUA",
+      "total": 23804.28
+    },
+    {
+      "kind": "Client",
+      "name": "Company_194",
+      "yamlId": "Leticia@Company_194",
+      "parentYamlId": "Leticia",
+      "type": null,
+      "total": 375331.45
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_65",
+      "yamlId": "Leticia@Company_194@Company_65",
+      "parentYamlId": "Leticia@Company_194",
+      "type": null,
+      "total": 83374.44
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_176",
+      "yamlId": "Leticia@Company_194@Company_176",
+      "parentYamlId": "Leticia@Company_194",
+      "type": "FASTENER",
+      "total": 22497.86
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_189",
+      "yamlId": "Leticia@Company_194@Company_189",
+      "parentYamlId": "Leticia@Company_194",
+      "type": null,
+      "total": 8720
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Leticia@Company_194@Company_6",
+      "parentYamlId": "Leticia@Company_194",
+      "type": "AQUA",
+      "total": 98872.2
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_195",
+      "yamlId": "Leticia@Company_194@Company_195",
+      "parentYamlId": "Leticia@Company_194",
+      "type": null,
+      "total": 46700
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_59",
+      "yamlId": "Leticia@Company_194@Company_59",
+      "parentYamlId": "Leticia@Company_194",
+      "type": "PLASTIC",
+      "total": 4584.36
+    },
+    {
+      "kind": "Client",
+      "name": "Company_196",
+      "yamlId": "Leticia@Company_196",
+      "parentYamlId": "Leticia",
+      "type": null,
+      "total": 84723.7
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_197",
+      "yamlId": "Leticia@Company_196@Company_197",
+      "parentYamlId": "Leticia@Company_196",
+      "type": null,
+      "total": 18936.3
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Leticia@Company_196@Company_6",
+      "parentYamlId": "Leticia@Company_196",
+      "type": "AQUA",
+      "total": 37200
+    },
+    {
+      "kind": "Manager",
+      "name": "Lennon",
+      "yamlId": "Lennon",
+      "parentYamlId": "Sales"
+    },
+    {
+      "kind": "Client",
+      "name": "Company_199",
+      "yamlId": "Lennon@Company_888",
+      "parentYamlId": "Lennon",
+      "type": null,
+      "total": 336962.15
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_44",
+      "yamlId": "Lennon@Company_888@Company_44",
+      "parentYamlId": "Lennon@Company_888",
+      "type": "CONCRETE",
+      "total": 293655
+    },
+    {
+      "kind": "Client",
+      "name": "Company_200",
+      "yamlId": "Lennon@Company_200",
+      "parentYamlId": "Lennon",
+      "type": null,
+      "total": 48339.22
+    },
+    {
+      "kind": "Supplier",
+      "name": "LLC_Company_22",
+      "yamlId": "Lennon@Company_200@LLC_Company_22",
+      "parentYamlId": "Lennon@Company_200",
+      "type": null,
+      "total": 19289.35
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Lennon@Company_200@Company_6",
+      "parentYamlId": "Lennon@Company_200",
+      "type": "AQUA",
+      "total": 6868.199999999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_201",
+      "yamlId": "Lennon@Company_200@Company_201",
+      "parentYamlId": "Lennon@Company_200",
+      "type": null,
+      "total": 552.5
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_80",
+      "yamlId": "Lennon@Company_200@Company_80",
+      "parentYamlId": "Lennon@Company_200",
+      "type": null,
+      "total": 988.99
+    },
+    {
+      "kind": "Client",
+      "name": "Company_202",
+      "yamlId": "Lennon@Company_202",
+      "parentYamlId": "Lennon",
+      "type": null,
+      "total": 13173.37
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Lennon@Company_202@Company_6",
+      "parentYamlId": "Lennon@Company_202",
+      "type": "AQUA",
+      "total": 8435.52
+    },
+    {
+      "kind": "Client",
+      "name": "Company_203",
+      "yamlId": "Lennon@Company_203",
+      "parentYamlId": "Lennon",
+      "type": null,
+      "total": 410507.96
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_69",
+      "yamlId": "Lennon@Company_203@Company_69",
+      "parentYamlId": "Lennon@Company_203",
+      "type": null,
+      "total": 8448.27
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_14",
+      "yamlId": "Lennon@Company_203@Company_14",
+      "parentYamlId": "Lennon@Company_203",
+      "type": null,
+      "total": 301428.18000000005
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_204",
+      "yamlId": "Lennon@Company_203@Company_204",
+      "parentYamlId": "Lennon@Company_203",
+      "type": null,
+      "total": 15609.32
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Lennon@Company_203@Company_6",
+      "parentYamlId": "Lennon@Company_203",
+      "type": "AQUA",
+      "total": 87412.8
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_3",
+      "yamlId": "Lennon@Company_203@Company_3",
+      "parentYamlId": "Lennon@Company_203",
+      "type": null,
+      "total": 5150
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_205",
+      "yamlId": "Lennon@Company_203@Company_205",
+      "parentYamlId": "Lennon@Company_203",
+      "type": null,
+      "total": 37822.6
+    },
+    {
+      "kind": "Client",
+      "name": "Company_206",
+      "yamlId": "Lennon@Company_206",
+      "parentYamlId": "Lennon",
+      "type": null,
+      "total": 1113419.4900000002
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_207",
+      "yamlId": "Lennon@Company_898@Company_207",
+      "parentYamlId": "Lennon@Company_206",
+      "type": "METAL",
+      "total": 199000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_208",
+      "yamlId": "Lennon@Company_898@Company_208",
+      "parentYamlId": "Lennon@Company_206",
+      "type": null,
+      "total": 308600
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_5",
+      "yamlId": "Lennon@Company_898@Company_5",
+      "parentYamlId": "Lennon@Company_206",
+      "type": "CONCRETE",
+      "total": 26916
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_209",
+      "yamlId": "Lennon@Company_898@Company_209",
+      "parentYamlId": "Lennon@Company_206",
+      "type": "ELECTRICITY",
+      "total": 16356
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_210",
+      "yamlId": "Lennon@Company_898@Company_210",
+      "parentYamlId": "Lennon@Company_206",
+      "type": null,
+      "total": 2470
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_211",
+      "yamlId": "Lennon@Company_898@Company_211",
+      "parentYamlId": "Lennon@Company_206",
+      "type": null,
+      "total": 46494.54
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_8",
+      "yamlId": "Lennon@Company_898@Company_8",
+      "parentYamlId": "Lennon@Company_206",
+      "type": "INSTRUMENT",
+      "total": 5495
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_212",
+      "yamlId": "Lennon@Company_898@Company_212",
+      "parentYamlId": "Lennon@Company_206",
+      "type": null,
+      "total": 7271
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_213",
+      "yamlId": "Lennon@Company_898@Company_213",
+      "parentYamlId": "Lennon@Company_206",
+      "type": null,
+      "total": 58800
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_214",
+      "yamlId": "Lennon@Company_898@Company_214",
+      "parentYamlId": "Lennon@Company_206",
+      "type": null,
+      "total": 49919
+    },
+    {
+      "kind": "Client",
+      "name": "Company_215",
+      "yamlId": "Lennon@Company_215",
+      "parentYamlId": "Lennon",
+      "type": null,
+      "total": 142740.64
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_69",
+      "yamlId": "Lennon@Company_215@Company_69",
+      "parentYamlId": "Lennon@Company_215",
+      "type": null,
+      "total": 77342.32
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Lennon@Company_215@Company_6",
+      "parentYamlId": "Lennon@Company_215",
+      "type": "AQUA",
+      "total": 31026
+    },
+    {
+      "kind": "Client",
+      "name": "Company_216",
+      "yamlId": "Lennon@Company_216",
+      "parentYamlId": "Lennon",
+      "type": null,
+      "total": 44118.4
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_13",
+      "yamlId": "Lennon@Company_216@Company_13",
+      "parentYamlId": "Lennon@Company_216",
+      "type": "AQUA",
+      "total": 35658.9
+    },
+    {
+      "kind": "Client",
+      "name": "Company_217",
+      "yamlId": "Lennon@Company_217",
+      "parentYamlId": "Lennon",
+      "type": null,
+      "total": 84179.84
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_41",
+      "yamlId": "Lennon@Company_217@Company_41",
+      "parentYamlId": "Lennon@Company_217",
+      "type": "FASTENER",
+      "total": 12520.4
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_218",
+      "yamlId": "Lennon@Company_217@Company_218",
+      "parentYamlId": "Lennon@Company_217",
+      "type": null,
+      "total": 51442
+    },
+    {
+      "kind": "Client",
+      "name": "Company_219",
+      "yamlId": "Lennon@Company_219",
+      "parentYamlId": "Lennon",
+      "type": null,
+      "total": 55525.2
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_220",
+      "yamlId": "Lennon@Company_219@Company_220",
+      "parentYamlId": "Lennon@Company_219",
+      "type": null,
+      "total": 29848.95
+    },
+    {
+      "kind": "Client",
+      "name": "Company_221",
+      "yamlId": "Lennon@Company_221",
+      "parentYamlId": "Lennon",
+      "type": null,
+      "total": 139841.32
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_5",
+      "yamlId": "Lennon@Company_221@Company_5",
+      "parentYamlId": "Lennon@Company_221",
+      "type": "CONCRETE",
+      "total": 249492
+    },
+    {
+      "kind": "Manager",
+      "name": "Andy",
+      "yamlId": "Andy",
+      "parentYamlId": "Sales"
+    },
+    {
+      "kind": "Client",
+      "name": "Company_223",
+      "yamlId": "Andy@Company_223",
+      "parentYamlId": "Andy",
+      "type": null,
+      "total": 27974.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_80",
+      "yamlId": "Andy@Company_223@Company_80",
+      "parentYamlId": "Andy@Company_223",
+      "type": null,
+      "total": 2487.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_224",
+      "yamlId": "Andy@Company_223@Company_224",
+      "parentYamlId": "Andy@Company_223",
+      "type": null,
+      "total": 14452.76
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_135",
+      "yamlId": "Andy@Company_223@Company_135",
+      "parentYamlId": "Andy@Company_223",
+      "type": null,
+      "total": 1051.96
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_225",
+      "yamlId": "Andy@Company_223@Company_225",
+      "parentYamlId": "Andy@Company_223",
+      "type": null,
+      "total": 2859.6
+    },
+    {
+      "kind": "Client",
+      "name": "LLO-Company_168",
+      "yamlId": "Andy@LLO-Company_168",
+      "parentYamlId": "Andy",
+      "type": null,
+      "total": 89588
+    },
+    {
+      "kind": "Supplier",
+      "name": "E-Company_165",
+      "yamlId": "Andy@LLO-Company_168@E-Company_165",
+      "parentYamlId": "Andy@LLO-Company_168",
+      "type": null,
+      "total": 76692
+    },
+    {
+      "kind": "Client",
+      "name": "Company_227",
+      "yamlId": "Andy@Company_227",
+      "parentYamlId": "Andy",
+      "type": null,
+      "total": 605367
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_5",
+      "yamlId": "Andy@Company_227@Company_5",
+      "parentYamlId": "Andy@Company_227",
+      "type": "CONCRETE",
+      "total": 576540
+    },
+    {
+      "kind": "Client",
+      "name": "Company_228",
+      "yamlId": "Andy@Company_228",
+      "parentYamlId": "Andy",
+      "type": null,
+      "total": 82606.24
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_13",
+      "yamlId": "Andy@Company_228@Company_13",
+      "parentYamlId": "Andy@Company_228",
+      "type": "AQUA",
+      "total": 67456.82
+    },
+    {
+      "kind": "Manager",
+      "name": "Nikolet",
+      "yamlId": "Nikolet",
+      "parentYamlId": "Sales"
+    },
+    {
+      "kind": "Client",
+      "name": "Company_230",
+      "yamlId": "Nikolet@Company_230",
+      "parentYamlId": "Nikolet",
+      "type": null,
+      "total": 308889.80000000005
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_41",
+      "yamlId": "Nikolet@Company_230@Company_41",
+      "parentYamlId": "Nikolet@Company_230",
+      "type": "FASTENER",
+      "total": 387.76
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikolet@Company_230@Company_6",
+      "parentYamlId": "Nikolet@Company_230",
+      "type": "AQUA",
+      "total": 11357.04
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_209",
+      "yamlId": "Nikolet@Company_230@Company_209",
+      "parentYamlId": "Nikolet@Company_230",
+      "type": "ELECTRICITY",
+      "total": 112109.84
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_231",
+      "yamlId": "Nikolet@Company_230@Company_231",
+      "parentYamlId": "Nikolet@Company_230",
+      "type": "AQUA",
+      "total": 31173.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_42",
+      "yamlId": "Nikolet@Company_230@Company_42",
+      "parentYamlId": "Nikolet@Company_230",
+      "type": "AQUA",
+      "total": 6738.8
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_232",
+      "yamlId": "Nikolet@Company_230@Company_232",
+      "parentYamlId": "Nikolet@Company_230",
+      "type": null,
+      "total": 7216
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_76",
+      "yamlId": "Nikolet@Company_230@Company_76",
+      "parentYamlId": "Nikolet@Company_230",
+      "type": null,
+      "total": 5836
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_8",
+      "yamlId": "Nikolet@Company_230@Company_8",
+      "parentYamlId": "Nikolet@Company_230",
+      "type": "INSTRUMENT",
+      "total": 6640
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_14",
+      "yamlId": "Nikolet@Company_230@Company_14",
+      "parentYamlId": "Nikolet@Company_230",
+      "type": null,
+      "total": 5991.5
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_233",
+      "yamlId": "Nikolet@Company_230@Company_233",
+      "parentYamlId": "Nikolet@Company_230",
+      "type": null,
+      "total": 5740
+    },
+    {
+      "kind": "Client",
+      "name": "Company_234",
+      "yamlId": "Nikolet@Company_234",
+      "parentYamlId": "Nikolet",
+      "type": null,
+      "total": 6158724.7299999995
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_235",
+      "yamlId": "Nikolet@Company_234@Company_235",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 16380
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_236",
+      "yamlId": "Nikolet@Company_234@Company_236",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 2176
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_41",
+      "yamlId": "Nikolet@Company_234@Company_41",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": "FASTENER",
+      "total": 1807.52
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikolet@Company_234@Company_6",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": "AQUA",
+      "total": 92531.40999999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_8",
+      "yamlId": "Nikolet@Company_234@Company_8",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": "INSTRUMENT",
+      "total": 6000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_237",
+      "yamlId": "Nikolet@Company_234@Company_237",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 61310
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_238",
+      "yamlId": "Nikolet@Company_234@Company_238",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 792480
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_36",
+      "yamlId": "Nikolet@Company_234@Company_36",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": "FIRE",
+      "total": 692490.67
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_239",
+      "yamlId": "Nikolet@Company_234@Company_239",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": "TUBE",
+      "total": 2687512.27
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_240",
+      "yamlId": "Nikolet@Company_234@Company_240",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": "AQUA",
+      "total": 14656.76
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_241",
+      "yamlId": "Nikolet@Company_234@Company_241",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 16100
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_242",
+      "yamlId": "Nikolet@Company_234@Company_242",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 6831
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_243",
+      "yamlId": "Nikolet@Company_234@Company_243",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 442089.35
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_80",
+      "yamlId": "Nikolet@Company_234@Company_80",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 51978.24
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_104",
+      "yamlId": "Nikolet@Company_234@Company_104",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 446440
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_135",
+      "yamlId": "Nikolet@Company_234@Company_135",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 22590
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_11",
+      "yamlId": "Nikolet@Company_234@Company_11",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 56521.04
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_17",
+      "yamlId": "Nikolet@Company_234@Company_17",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 64000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_14",
+      "yamlId": "Nikolet@Company_234@Company_14",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 292.8
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_244",
+      "yamlId": "Nikolet@Company_234@Company_244",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 125000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_95",
+      "yamlId": "Nikolet@Company_234@Company_95",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 7938.24
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_183",
+      "yamlId": "Nikolet@Company_234@Company_183",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 15884.4
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_245",
+      "yamlId": "Nikolet@Company_234@Company_245",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 32296.26
+    },
+    {
+      "kind": "Supplier",
+      "name": "LLC_Company_22",
+      "yamlId": "Nikolet@Company_234@LLC_Company_22",
+      "parentYamlId": "Nikolet@Company_234",
+      "type": null,
+      "total": 37209.6
+    },
+    {
+      "kind": "Client",
+      "name": "Company_246",
+      "yamlId": "Nikolet@Company_246",
+      "parentYamlId": "Nikolet",
+      "type": null,
+      "total": 298233.19
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikolet@Company_246@Company_6",
+      "parentYamlId": "Nikolet@Company_246",
+      "type": "AQUA",
+      "total": 51379.200000000004
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_247",
+      "yamlId": "Nikolet@Company_246@Company_247",
+      "parentYamlId": "Nikolet@Company_246",
+      "type": null,
+      "total": 175560
+    },
+    {
+      "kind": "Client",
+      "name": "Company_248",
+      "yamlId": "Nikolet@Company_248",
+      "parentYamlId": "Nikolet",
+      "type": null,
+      "total": 533716.53
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_74",
+      "yamlId": "Nikolet@Company_248@Company_74",
+      "parentYamlId": "Nikolet@Company_248",
+      "type": "ELECTRICITY",
+      "total": 166213.08000000002
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_249",
+      "yamlId": "Nikolet@Company_248@Company_249",
+      "parentYamlId": "Nikolet@Company_248",
+      "type": null,
+      "total": 24858.94
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_250",
+      "yamlId": "Nikolet@Company_248@Company_250",
+      "parentYamlId": "Nikolet@Company_248",
+      "type": null,
+      "total": 152776
+    },
+    {
+      "kind": "Client",
+      "name": "Company_251",
+      "yamlId": "Nikolet@Company_251",
+      "parentYamlId": "Nikolet",
+      "type": null,
+      "total": 319054.11
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_252",
+      "yamlId": "Nikolet@Company_251@Company_252",
+      "parentYamlId": "Nikolet@Company_251",
+      "type": "AQUA",
+      "total": 129658
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikolet@Company_251@Company_6",
+      "parentYamlId": "Nikolet@Company_251",
+      "type": "AQUA",
+      "total": 22726.079999999998
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_253",
+      "yamlId": "Nikolet@Company_251@Company_253",
+      "parentYamlId": "Nikolet@Company_251",
+      "type": null,
+      "total": 41750
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_121",
+      "yamlId": "Nikolet@Company_251@Company_121",
+      "parentYamlId": "Nikolet@Company_251",
+      "type": null,
+      "total": 1303
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_8",
+      "yamlId": "Nikolet@Company_251@Company_8",
+      "parentYamlId": "Nikolet@Company_251",
+      "type": "INSTRUMENT",
+      "total": 19239
+    },
+    {
+      "kind": "Client",
+      "name": "Company_254",
+      "yamlId": "Nikolet@Company_254",
+      "parentYamlId": "Nikolet",
+      "type": null,
+      "total": 3200
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_250",
+      "yamlId": "Nikolet@Company_254@Company_250",
+      "parentYamlId": "Nikolet@Company_254",
+      "type": null,
+      "total": 1850000
+    },
+    {
+      "kind": "Client",
+      "name": "Company_255",
+      "yamlId": "Nikolet@Company_255",
+      "parentYamlId": "Nikolet",
+      "type": null,
+      "total": 44944.8
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_250",
+      "yamlId": "Nikolet@Company_255@Company_250",
+      "parentYamlId": "Nikolet@Company_255",
+      "type": null,
+      "total": 28950
+    },
+    {
+      "kind": "Manager",
+      "name": "Nikky",
+      "yamlId": "Nikky",
+      "parentYamlId": "Sales"
+    },
+    {
+      "kind": "Client",
+      "name": "Company_258",
+      "yamlId": "Nikky@Company_258",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 1402650.33
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_259",
+      "yamlId": "Nikky@Company_258@Company_259",
+      "parentYamlId": "Nikky@Company_258",
+      "type": "AQUA",
+      "total": 174523.80000000002
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_19",
+      "yamlId": "Nikky@Company_258@Company_19",
+      "parentYamlId": "Nikky@Company_258",
+      "type": null,
+      "total": 34196.979999999996
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_260",
+      "yamlId": "Nikky@Company_258@Company_260",
+      "parentYamlId": "Nikky@Company_258",
+      "type": null,
+      "total": 221426.96
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_11",
+      "yamlId": "Nikky@Company_258@Company_11",
+      "parentYamlId": "Nikky@Company_258",
+      "type": null,
+      "total": 34962.31
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_14",
+      "yamlId": "Nikky@Company_258@Company_14",
+      "parentYamlId": "Nikky@Company_258",
+      "type": null,
+      "total": 35305.560000000005
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_261",
+      "yamlId": "Nikky@Company_258@Company_261",
+      "parentYamlId": "Nikky@Company_258",
+      "type": null,
+      "total": 51939
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikky@Company_258@Company_6",
+      "parentYamlId": "Nikky@Company_258",
+      "type": "AQUA",
+      "total": 193121.63999999998
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_262",
+      "yamlId": "Nikky@Company_258@Company_262",
+      "parentYamlId": "Nikky@Company_258",
+      "type": null,
+      "total": 5752.08
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Nikky@Company_258@Company_29",
+      "parentYamlId": "Nikky@Company_258",
+      "type": "METAL",
+      "total": 256852.73
+    },
+    {
+      "kind": "Client",
+      "name": "Company_263",
+      "yamlId": "Nikky@Company_263",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 1441021.6600000001
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_264",
+      "yamlId": "Nikky@Company_263@Company_264",
+      "parentYamlId": "Nikky@Company_263",
+      "type": null,
+      "total": 23203
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_265",
+      "yamlId": "Nikky@Company_263@Company_265",
+      "parentYamlId": "Nikky@Company_263",
+      "type": null,
+      "total": 61200
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikky@Company_263@Company_6",
+      "parentYamlId": "Nikky@Company_263",
+      "type": "AQUA",
+      "total": 17375.04
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Nikky@Company_263@Company_29",
+      "parentYamlId": "Nikky@Company_263",
+      "type": "METAL",
+      "total": 384779.87
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_183",
+      "yamlId": "Nikky@Company_263@Company_183",
+      "parentYamlId": "Nikky@Company_263",
+      "type": null,
+      "total": 326929.65
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_30",
+      "yamlId": "Nikky@Company_263@Company_30",
+      "parentYamlId": "Nikky@Company_263",
+      "type": null,
+      "total": 14376.9
+    },
+    {
+      "kind": "Supplier",
+      "name": "LLC_Company_22",
+      "yamlId": "Nikky@Company_263@LLC_Company_22",
+      "parentYamlId": "Nikky@Company_263",
+      "type": null,
+      "total": 11088
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_266",
+      "yamlId": "Nikky@Company_263@Company_266",
+      "parentYamlId": "Nikky@Company_263",
+      "type": null,
+      "total": 12837.05
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_11",
+      "yamlId": "Nikky@Company_263@Company_11",
+      "parentYamlId": "Nikky@Company_263",
+      "type": null,
+      "total": 47329.270000000004
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_121",
+      "yamlId": "Nikky@Company_263@Company_121",
+      "parentYamlId": "Nikky@Company_263",
+      "type": null,
+      "total": 2538
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_267",
+      "yamlId": "Nikky@Company_263@Company_267",
+      "parentYamlId": "Nikky@Company_263",
+      "type": null,
+      "total": 217978.06
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_268",
+      "yamlId": "Nikky@Company_263@Company_268",
+      "parentYamlId": "Nikky@Company_263",
+      "type": null,
+      "total": 19950
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_269",
+      "yamlId": "Nikky@Company_263@Company_269",
+      "parentYamlId": "Nikky@Company_263",
+      "type": null,
+      "total": 120211.2
+    },
+    {
+      "kind": "Client",
+      "name": "Company_270",
+      "yamlId": "Nikky@Company_270",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 2040728.6800000002
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_40",
+      "yamlId": "Nikky@Company_270@Company_40",
+      "parentYamlId": "Nikky@Company_270",
+      "type": null,
+      "total": 10391.43
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikky@Company_270@Company_6",
+      "parentYamlId": "Nikky@Company_270",
+      "type": "AQUA",
+      "total": 301910.27999999997
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_14",
+      "yamlId": "Nikky@Company_270@Company_14",
+      "parentYamlId": "Nikky@Company_270",
+      "type": null,
+      "total": 5921.2
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_225",
+      "yamlId": "Nikky@Company_270@Company_225",
+      "parentYamlId": "Nikky@Company_270",
+      "type": null,
+      "total": 67560
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_41",
+      "yamlId": "Nikky@Company_270@Company_41",
+      "parentYamlId": "Nikky@Company_270",
+      "type": "FASTENER",
+      "total": 3516.12
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_80",
+      "yamlId": "Nikky@Company_270@Company_80",
+      "parentYamlId": "Nikky@Company_270",
+      "type": null,
+      "total": 26042.88
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_30",
+      "yamlId": "Nikky@Company_270@Company_30",
+      "parentYamlId": "Nikky@Company_270",
+      "type": null,
+      "total": 4154.64
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_271",
+      "yamlId": "Nikky@Company_270@Company_271",
+      "parentYamlId": "Nikky@Company_270",
+      "type": null,
+      "total": 252036
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Nikky@Company_270@Company_29",
+      "parentYamlId": "Nikky@Company_270",
+      "type": "METAL",
+      "total": 110171.7
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_22",
+      "yamlId": "Nikky@Company_270@Company_22",
+      "parentYamlId": "Nikky@Company_270",
+      "type": null,
+      "total": 74700
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_17",
+      "yamlId": "Nikky@Company_270@Company_17",
+      "parentYamlId": "Nikky@Company_270",
+      "type": null,
+      "total": 66000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_59",
+      "yamlId": "Nikky@Company_270@Company_59",
+      "parentYamlId": "Nikky@Company_270",
+      "type": "PLASTIC",
+      "total": 71894.52
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_11",
+      "yamlId": "Nikky@Company_270@Company_11",
+      "parentYamlId": "Nikky@Company_270",
+      "type": null,
+      "total": 534.5
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_190",
+      "yamlId": "Nikky@Company_270@Company_190",
+      "parentYamlId": "Nikky@Company_270",
+      "type": null,
+      "total": 633735
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_272",
+      "yamlId": "Nikky@Company_270@Company_272",
+      "parentYamlId": "Nikky@Company_270",
+      "type": null,
+      "total": 4680
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_5",
+      "yamlId": "Nikky@Company_270@Company_5",
+      "parentYamlId": "Nikky@Company_270",
+      "type": "CONCRETE",
+      "total": 13942
+    },
+    {
+      "kind": "Client",
+      "name": "Company_273",
+      "yamlId": "Nikky@Company_273",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 1681161.4799999997
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_260",
+      "yamlId": "Nikky@Company_273@Company_260",
+      "parentYamlId": "Nikky@Company_273",
+      "type": null,
+      "total": 86535.52
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_135",
+      "yamlId": "Nikky@Company_273@Company_135",
+      "parentYamlId": "Nikky@Company_273",
+      "type": null,
+      "total": 228
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_30",
+      "yamlId": "Nikky@Company_273@Company_30",
+      "parentYamlId": "Nikky@Company_273",
+      "type": null,
+      "total": 77918.05
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_41",
+      "yamlId": "Nikky@Company_273@Company_41",
+      "parentYamlId": "Nikky@Company_273",
+      "type": "FASTENER",
+      "total": 5503.42
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikky@Company_273@Company_6",
+      "parentYamlId": "Nikky@Company_273",
+      "type": "AQUA",
+      "total": 164753.28
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_274",
+      "yamlId": "Nikky@Company_273@Company_274",
+      "parentYamlId": "Nikky@Company_273",
+      "type": null,
+      "total": 17603.7
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_275",
+      "yamlId": "Nikky@Company_273@Company_275",
+      "parentYamlId": "Nikky@Company_273",
+      "type": null,
+      "total": 126360
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_80",
+      "yamlId": "Nikky@Company_273@Company_80",
+      "parentYamlId": "Nikky@Company_273",
+      "type": null,
+      "total": 15095.23
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_176",
+      "yamlId": "Nikky@Company_273@Company_176",
+      "parentYamlId": "Nikky@Company_273",
+      "type": "FASTENER",
+      "total": 8500
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_276",
+      "yamlId": "Nikky@Company_273@Company_276",
+      "parentYamlId": "Nikky@Company_273",
+      "type": null,
+      "total": 11300
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_17",
+      "yamlId": "Nikky@Company_273@Company_17",
+      "parentYamlId": "Nikky@Company_273",
+      "type": null,
+      "total": 12000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_5",
+      "yamlId": "Nikky@Company_273@Company_5",
+      "parentYamlId": "Nikky@Company_273",
+      "type": "CONCRETE",
+      "total": 442723
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_82",
+      "yamlId": "Nikky@Company_273@Company_82",
+      "parentYamlId": "Nikky@Company_273",
+      "type": null,
+      "total": 13233
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_22",
+      "yamlId": "Nikky@Company_273@Company_22",
+      "parentYamlId": "Nikky@Company_273",
+      "type": null,
+      "total": 22176
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_14",
+      "yamlId": "Nikky@Company_273@Company_14",
+      "parentYamlId": "Nikky@Company_273",
+      "type": null,
+      "total": 26610.18
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_53",
+      "yamlId": "Nikky@Company_273@Company_53",
+      "parentYamlId": "Nikky@Company_273",
+      "type": "TUBE",
+      "total": 90833.72
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_277",
+      "yamlId": "Nikky@Company_273@Company_277",
+      "parentYamlId": "Nikky@Company_273",
+      "type": "CONCRETE",
+      "total": 204450
+    },
+    {
+      "kind": "Client",
+      "name": "Company_278",
+      "yamlId": "Nikky@Company_278",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 669635.25
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_84",
+      "yamlId": "Nikky@Company_278@Company_84",
+      "parentYamlId": "Nikky@Company_278",
+      "type": null,
+      "total": 195307.92
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_279",
+      "yamlId": "Nikky@Company_278@Company_279",
+      "parentYamlId": "Nikky@Company_278",
+      "type": null,
+      "total": 1007
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_14",
+      "yamlId": "Nikky@Company_278@Company_14",
+      "parentYamlId": "Nikky@Company_278",
+      "type": null,
+      "total": 53204.64
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_280",
+      "yamlId": "Nikky@Company_278@Company_280",
+      "parentYamlId": "Nikky@Company_278",
+      "type": null,
+      "total": 24000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_281",
+      "yamlId": "Nikky@Company_278@Company_281",
+      "parentYamlId": "Nikky@Company_278",
+      "type": null,
+      "total": 2528.82
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_282",
+      "yamlId": "Nikky@Company_278@Company_282",
+      "parentYamlId": "Nikky@Company_278",
+      "type": null,
+      "total": 66213
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikky@Company_278@Company_6",
+      "parentYamlId": "Nikky@Company_278",
+      "type": "AQUA",
+      "total": 117988.44
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_283",
+      "yamlId": "Nikky@Company_278@Company_283",
+      "parentYamlId": "Nikky@Company_278",
+      "type": null,
+      "total": 50500
+    },
+    {
+      "kind": "Client",
+      "name": "Company_284",
+      "yamlId": "Nikky@Company_284",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 474836.73
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_11",
+      "yamlId": "Nikky@Company_284@Company_11",
+      "parentYamlId": "Nikky@Company_284",
+      "type": null,
+      "total": 129262.12
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikky@Company_284@Company_6",
+      "parentYamlId": "Nikky@Company_284",
+      "type": "AQUA",
+      "total": 16144.560000000001
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_231",
+      "yamlId": "Nikky@Company_284@Company_231",
+      "parentYamlId": "Nikky@Company_284",
+      "type": "AQUA",
+      "total": 255543
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_30",
+      "yamlId": "Nikky@Company_284@Company_30",
+      "parentYamlId": "Nikky@Company_284",
+      "type": null,
+      "total": 7024.63
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_41",
+      "yamlId": "Nikky@Company_284@Company_41",
+      "parentYamlId": "Nikky@Company_284",
+      "type": "FASTENER",
+      "total": 754.99
+    },
+    {
+      "kind": "Client",
+      "name": "Company_285",
+      "yamlId": "Nikky@Company_285",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 324099.42
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_286",
+      "yamlId": "Nikky@Company_285@Company_286",
+      "parentYamlId": "Nikky@Company_285",
+      "type": null,
+      "total": 202668.4
+    },
+    {
+      "kind": "Client",
+      "name": "Company_287",
+      "yamlId": "Nikky@Company_287",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 116608.95999999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_288",
+      "yamlId": "Nikky@Company_287@Company_288",
+      "parentYamlId": "Nikky@Company_287",
+      "type": null,
+      "total": 6116
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_289",
+      "yamlId": "Nikky@Company_287@Company_289",
+      "parentYamlId": "Nikky@Company_287",
+      "type": null,
+      "total": 60853.17
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_82",
+      "yamlId": "Nikky@Company_287@Company_82",
+      "parentYamlId": "Nikky@Company_287",
+      "type": null,
+      "total": 16480
+    },
+    {
+      "kind": "Client",
+      "name": "Company_290",
+      "yamlId": "Nikky@Company_290",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 480008.4
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_291",
+      "yamlId": "Nikky@Company_290@Company_291",
+      "parentYamlId": "Nikky@Company_290",
+      "type": null,
+      "total": 115950
+    },
+    {
+      "kind": "Supplier",
+      "name": "SALE ELECTRICITYНCompany_165",
+      "yamlId": "Nikky@Company_290@SALE_ELECTRICITYНCompany_165",
+      "parentYamlId": "Nikky@Company_290",
+      "type": "ELECTRICITY",
+      "total": 203668
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_293",
+      "yamlId": "Nikky@Company_290@Company_293",
+      "parentYamlId": "Nikky@Company_290",
+      "type": null,
+      "total": 68575
+    },
+    {
+      "kind": "Client",
+      "name": "Company_294",
+      "yamlId": "Nikky@Company_294",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 236388.84
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_225",
+      "yamlId": "Nikky@Company_294@Company_225",
+      "parentYamlId": "Nikky@Company_294",
+      "type": null,
+      "total": 20745
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_252",
+      "yamlId": "Nikky@Company_294@Company_252",
+      "parentYamlId": "Nikky@Company_294",
+      "type": "AQUA",
+      "total": 191404
+    },
+    {
+      "kind": "Client",
+      "name": "Company_295",
+      "yamlId": "Nikky@Company_295",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 117503.48999999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_296",
+      "yamlId": "Nikky@Company_295@Company_296",
+      "parentYamlId": "Nikky@Company_295",
+      "type": null,
+      "total": 53080
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_84",
+      "yamlId": "Nikky@Company_295@Company_84",
+      "parentYamlId": "Nikky@Company_295",
+      "type": null,
+      "total": 14129.22
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_8",
+      "yamlId": "Nikky@Company_295@Company_8",
+      "parentYamlId": "Nikky@Company_295",
+      "type": "INSTRUMENT",
+      "total": 5650
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikky@Company_295@Company_6",
+      "parentYamlId": "Nikky@Company_295",
+      "type": "AQUA",
+      "total": 2532.24
+    },
+    {
+      "kind": "Client",
+      "name": "Company_297",
+      "yamlId": "Nikky@Company_297",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 278535.18999999994
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikky@Company_297@Company_6",
+      "parentYamlId": "Nikky@Company_297",
+      "type": "AQUA",
+      "total": 5670.959999999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_95",
+      "yamlId": "Nikky@Company_297@Company_95",
+      "parentYamlId": "Nikky@Company_297",
+      "type": null,
+      "total": 1313.7
+    },
+    {
+      "kind": "Supplier",
+      "name": "LLC_Company_22",
+      "yamlId": "Nikky@Company_297@LLC_Company_22",
+      "parentYamlId": "Nikky@Company_297",
+      "type": null,
+      "total": 30040.5
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_30",
+      "yamlId": "Nikky@Company_297@Company_30",
+      "parentYamlId": "Nikky@Company_297",
+      "type": null,
+      "total": 1123.3
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_231",
+      "yamlId": "Nikky@Company_297@Company_231",
+      "parentYamlId": "Nikky@Company_297",
+      "type": "AQUA",
+      "total": 201150
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_14",
+      "yamlId": "Nikky@Company_297@Company_14",
+      "parentYamlId": "Nikky@Company_297",
+      "type": null,
+      "total": 1413.6
+    },
+    {
+      "kind": "Client",
+      "name": "SubCompany_168",
+      "yamlId": "Nikky@SubCompany_168",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 288190.1
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_80",
+      "yamlId": "Nikky@SubCompany_168@Company_80",
+      "parentYamlId": "Nikky@SubCompany_168",
+      "type": null,
+      "total": 23283.65
+    },
+    {
+      "kind": "Supplier",
+      "name": "LLC_Company_191",
+      "yamlId": "Nikky@SubCompany_168@LLC_Company_191",
+      "parentYamlId": "Nikky@SubCompany_168",
+      "type": null,
+      "total": 44470.74
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikky@SubCompany_168@Company_6",
+      "parentYamlId": "Nikky@SubCompany_168",
+      "type": "AQUA",
+      "total": 119661.59999999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_95",
+      "yamlId": "Nikky@SubCompany_168@Company_95",
+      "parentYamlId": "Nikky@SubCompany_168",
+      "type": null,
+      "total": 24210.350000000002
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_8",
+      "yamlId": "Nikky@SubCompany_168@Company_8",
+      "parentYamlId": "Nikky@SubCompany_168",
+      "type": "INSTRUMENT",
+      "total": 19128
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_260",
+      "yamlId": "Nikky@SubCompany_168@Company_260",
+      "parentYamlId": "Nikky@SubCompany_168",
+      "type": null,
+      "total": 9053.4
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_84",
+      "yamlId": "Nikky@SubCompany_168@Company_84",
+      "parentYamlId": "Nikky@SubCompany_168",
+      "type": null,
+      "total": 2752.8
+    },
+    {
+      "kind": "Client",
+      "name": "Company_300",
+      "yamlId": "Nikky@Company_300",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 1101
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_301",
+      "yamlId": "Nikky@Company_300@Company_301",
+      "parentYamlId": "Nikky@Company_300",
+      "type": null,
+      "total": 1060
+    },
+    {
+      "kind": "Client",
+      "name": "Company_302",
+      "yamlId": "Nikky@Company_302",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 227193.76
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_303",
+      "yamlId": "Nikky@Company_302@Company_303",
+      "parentYamlId": "Nikky@Company_302",
+      "type": null,
+      "total": 51300
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_304",
+      "yamlId": "Nikky@Company_302@Company_304",
+      "parentYamlId": "Nikky@Company_302",
+      "type": null,
+      "total": 16600
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_305",
+      "yamlId": "Nikky@Company_302@Company_305",
+      "parentYamlId": "Nikky@Company_302",
+      "type": null,
+      "total": 52300
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_306",
+      "yamlId": "Nikky@Company_302@Company_306",
+      "parentYamlId": "Nikky@Company_302",
+      "type": null,
+      "total": 66620.2
+    },
+    {
+      "kind": "Client",
+      "name": "Company_307",
+      "yamlId": "Nikky@Company_307",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 150246.16
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikky@Company_307@Company_6",
+      "parentYamlId": "Nikky@Company_307",
+      "type": "AQUA",
+      "total": 2913.7200000000003
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_183",
+      "yamlId": "Nikky@Company_307@Company_183",
+      "parentYamlId": "Nikky@Company_307",
+      "type": null,
+      "total": 116790.82999999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_11",
+      "yamlId": "Nikky@Company_307@Company_11",
+      "parentYamlId": "Nikky@Company_307",
+      "type": null,
+      "total": 2826.87
+    },
+    {
+      "kind": "Supplier",
+      "name": "LLC_Company_22",
+      "yamlId": "Nikky@Company_307@LLC_Company_22",
+      "parentYamlId": "Nikky@Company_307",
+      "type": null,
+      "total": 3461.9
+    },
+    {
+      "kind": "Client",
+      "name": "Company_308",
+      "yamlId": "Nikky@Company_308",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 248962.62
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_309",
+      "yamlId": "Nikky@Company_308@Company_309",
+      "parentYamlId": "Nikky@Company_308",
+      "type": null,
+      "total": 141120
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_121",
+      "yamlId": "Nikky@Company_308@Company_121",
+      "parentYamlId": "Nikky@Company_308",
+      "type": null,
+      "total": 30068
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_310",
+      "yamlId": "Nikky@Company_308@Company_310",
+      "parentYamlId": "Nikky@Company_308",
+      "type": null,
+      "total": 21000
+    },
+    {
+      "kind": "Client",
+      "name": "Company_311",
+      "yamlId": "Nikky@Company_311",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 270321
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_312",
+      "yamlId": "Nikky@Company_311@Company_312",
+      "parentYamlId": "Nikky@Company_311",
+      "type": "INSTRUMENT",
+      "total": 929
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_313",
+      "yamlId": "Nikky@Company_311@Company_313",
+      "parentYamlId": "Nikky@Company_311",
+      "type": null,
+      "total": 4335
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_224",
+      "yamlId": "Nikky@Company_311@Company_224",
+      "parentYamlId": "Nikky@Company_311",
+      "type": null,
+      "total": 2992.9
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_84",
+      "yamlId": "Nikky@Company_311@Company_84",
+      "parentYamlId": "Nikky@Company_311",
+      "type": null,
+      "total": 9395.279999999999
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_135",
+      "yamlId": "Nikky@Company_311@Company_135",
+      "parentYamlId": "Nikky@Company_311",
+      "type": null,
+      "total": 4148.88
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_71",
+      "yamlId": "Nikky@Company_311@Company_71",
+      "parentYamlId": "Nikky@Company_311",
+      "type": null,
+      "total": 6120
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_41",
+      "yamlId": "Nikky@Company_311@Company_41",
+      "parentYamlId": "Nikky@Company_311",
+      "type": "FASTENER",
+      "total": 2617.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_314",
+      "yamlId": "Nikky@Company_311@Company_314",
+      "parentYamlId": "Nikky@Company_311",
+      "type": null,
+      "total": 17240
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikky@Company_311@Company_6",
+      "parentYamlId": "Nikky@Company_311",
+      "type": "AQUA",
+      "total": 61396.92
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_315",
+      "yamlId": "Nikky@Company_311@Company_315",
+      "parentYamlId": "Nikky@Company_311",
+      "type": null,
+      "total": 4597.9
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_95",
+      "yamlId": "Nikky@Company_311@Company_95",
+      "parentYamlId": "Nikky@Company_311",
+      "type": null,
+      "total": 3301.84
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_176",
+      "yamlId": "Nikky@Company_311@Company_176",
+      "parentYamlId": "Nikky@Company_311",
+      "type": "FASTENER",
+      "total": 5872
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_316",
+      "yamlId": "Nikky@Company_311@Company_316",
+      "parentYamlId": "Nikky@Company_311",
+      "type": null,
+      "total": 5101.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_30",
+      "yamlId": "Nikky@Company_311@Company_30",
+      "parentYamlId": "Nikky@Company_311",
+      "type": null,
+      "total": 895.74
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_20",
+      "yamlId": "Nikky@Company_311@Company_20",
+      "parentYamlId": "Nikky@Company_311",
+      "type": null,
+      "total": 18091
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_8",
+      "yamlId": "Nikky@Company_311@Company_8",
+      "parentYamlId": "Nikky@Company_311",
+      "type": "INSTRUMENT",
+      "total": 27315
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Nikky@Company_311@Company_29",
+      "parentYamlId": "Nikky@Company_311",
+      "type": "METAL",
+      "total": 17553.25
+    },
+    {
+      "kind": "Client",
+      "name": "Company_317",
+      "yamlId": "Nikky@Company_317",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 497712.25
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_29",
+      "yamlId": "Nikky@Company_317@Company_29",
+      "parentYamlId": "Nikky@Company_317",
+      "type": "METAL",
+      "total": 324498.85
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_283",
+      "yamlId": "Nikky@Company_317@Company_283",
+      "parentYamlId": "Nikky@Company_317",
+      "type": null,
+      "total": 94000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Nikky@Company_317@Company_6",
+      "parentYamlId": "Nikky@Company_317",
+      "type": "AQUA",
+      "total": 13948.8
+    },
+    {
+      "kind": "Client",
+      "name": "Company_318",
+      "yamlId": "Nikky@Company_318",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 44150
+    },
+    {
+      "kind": "Supplier",
+      "name": "LLC_Company_22",
+      "yamlId": "Nikky@Company_318@LLC_Company_22",
+      "parentYamlId": "Nikky@Company_318",
+      "type": null,
+      "total": 32658.58
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_225",
+      "yamlId": "Nikky@Company_318@Company_225",
+      "parentYamlId": "Nikky@Company_318",
+      "type": null,
+      "total": 5628
+    },
+    {
+      "kind": "Client",
+      "name": "Company_319",
+      "yamlId": "Nikky@Company_319",
+      "parentYamlId": "Nikky",
+      "type": null,
+      "total": 34230
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_187",
+      "yamlId": "Nikky@Company_319@Company_187",
+      "parentYamlId": "Nikky@Company_319",
+      "type": "TUBE",
+      "total": 16514.32
+    },
+    {
+      "kind": "Manager",
+      "name": "Victor",
+      "yamlId": "Victor",
+      "parentYamlId": "Sales"
+    },
+    {
+      "kind": "Client",
+      "name": "Company_321",
+      "yamlId": "Victor@Company_321",
+      "parentYamlId": "Victor",
+      "type": null,
+      "total": 167988.75
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_17",
+      "yamlId": "Victor@Company_321@Company_17",
+      "parentYamlId": "Victor@Company_321",
+      "type": null,
+      "total": 68900
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Victor@Company_321@Company_6",
+      "parentYamlId": "Victor@Company_321",
+      "type": "AQUA",
+      "total": 25164.48
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_183",
+      "yamlId": "Victor@Company_321@Company_183",
+      "parentYamlId": "Victor@Company_321",
+      "type": null,
+      "total": 33287.11
+    },
+    {
+      "kind": "Client",
+      "name": "Company_322",
+      "yamlId": "Victor@Company_322",
+      "parentYamlId": "Victor",
+      "type": null,
+      "total": 1081348.35
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_17",
+      "yamlId": "Victor@Company_322@Company_17",
+      "parentYamlId": "Victor@Company_322",
+      "type": null,
+      "total": 138530
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Victor@Company_322@Company_6",
+      "parentYamlId": "Victor@Company_322",
+      "type": "AQUA",
+      "total": 30981.24
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_323",
+      "yamlId": "Victor@Company_322@Company_323",
+      "parentYamlId": "Victor@Company_322",
+      "type": null,
+      "total": 48839.11
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_220",
+      "yamlId": "Victor@Company_322@Company_220",
+      "parentYamlId": "Victor@Company_322",
+      "type": null,
+      "total": 726486.79
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_259",
+      "yamlId": "Victor@Company_322@Company_259",
+      "parentYamlId": "Victor@Company_322",
+      "type": "AQUA",
+      "total": 302.76
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_324",
+      "yamlId": "Victor@Company_322@Company_324",
+      "parentYamlId": "Victor@Company_322",
+      "type": null,
+      "total": 2090.88
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_282",
+      "yamlId": "Victor@Company_322@Company_282",
+      "parentYamlId": "Victor@Company_322",
+      "type": null,
+      "total": 41374.2
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_280",
+      "yamlId": "Victor@Company_322@Company_280",
+      "parentYamlId": "Victor@Company_322",
+      "type": null,
+      "total": 3000
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_325",
+      "yamlId": "Victor@Company_322@Company_325",
+      "parentYamlId": "Victor@Company_322",
+      "type": null,
+      "total": 4750
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_40",
+      "yamlId": "Victor@Company_322@Company_40",
+      "parentYamlId": "Victor@Company_322",
+      "type": null,
+      "total": 1098589.32
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_183",
+      "yamlId": "Victor@Company_322@Company_183",
+      "parentYamlId": "Victor@Company_322",
+      "type": null,
+      "total": 663245.77
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_135",
+      "yamlId": "Victor@Company_322@Company_135",
+      "parentYamlId": "Victor@Company_322",
+      "type": null,
+      "total": 47880
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_121",
+      "yamlId": "Victor@Company_322@Company_121",
+      "parentYamlId": "Victor@Company_322",
+      "type": null,
+      "total": 578
+    },
+    {
+      "kind": "Client",
+      "name": "Company_326",
+      "yamlId": "Victor@Company_326",
+      "parentYamlId": "Victor",
+      "type": null,
+      "total": 490035
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_125",
+      "yamlId": "Victor@Company_326@Company_125",
+      "parentYamlId": "Victor@Company_326",
+      "type": null,
+      "total": 70738
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_209",
+      "yamlId": "Victor@Company_326@Company_209",
+      "parentYamlId": "Victor@Company_326",
+      "type": "ELECTRICITY",
+      "total": 20488.600000000002
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_74",
+      "yamlId": "Victor@Company_326@Company_74",
+      "parentYamlId": "Victor@Company_326",
+      "type": "ELECTRICITY",
+      "total": 111093.19
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_59",
+      "yamlId": "Victor@Company_326@Company_59",
+      "parentYamlId": "Victor@Company_326",
+      "type": "PLASTIC",
+      "total": 15140
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_259",
+      "yamlId": "Victor@Company_326@Company_259",
+      "parentYamlId": "Victor@Company_326",
+      "type": "AQUA",
+      "total": 34533.24
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_176",
+      "yamlId": "Victor@Company_326@Company_176",
+      "parentYamlId": "Victor@Company_326",
+      "type": "FASTENER",
+      "total": 1407.6
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_327",
+      "yamlId": "Victor@Company_326@Company_327",
+      "parentYamlId": "Victor@Company_326",
+      "type": "TUBE",
+      "total": 12870
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_328",
+      "yamlId": "Victor@Company_326@Company_328",
+      "parentYamlId": "Victor@Company_326",
+      "type": null,
+      "total": 1549.97
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Victor@Company_326@Company_6",
+      "parentYamlId": "Victor@Company_326",
+      "type": "AQUA",
+      "total": 43200
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_329",
+      "yamlId": "Victor@Company_326@Company_329",
+      "parentYamlId": "Victor@Company_326",
+      "type": null,
+      "total": 52121.65
+    },
+    {
+      "kind": "Client",
+      "name": "Company_330",
+      "yamlId": "Victor@Company_330",
+      "parentYamlId": "Victor",
+      "type": null,
+      "total": 97860
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_220",
+      "yamlId": "Victor@Company_330@Company_220",
+      "parentYamlId": "Victor@Company_330",
+      "type": null,
+      "total": 68400
+    },
+    {
+      "kind": "Manager",
+      "name": "Colin",
+      "yamlId": "Colin",
+      "parentYamlId": "Sales"
+    },
+    {
+      "kind": "Client",
+      "name": "Company_14",
+      "yamlId": "Colin@Company_14",
+      "parentYamlId": "Colin",
+      "type": null,
+      "total": 79891
+    },
+    {
+      "kind": "Client",
+      "name": "Company_332",
+      "yamlId": "Colin@Company_332",
+      "parentYamlId": "Colin",
+      "type": null,
+      "total": 402305.96
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Colin@Company_332@Company_6",
+      "parentYamlId": "Colin@Company_332",
+      "type": "AQUA",
+      "total": 103498.56
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_59",
+      "yamlId": "Colin@Company_332@Company_59",
+      "parentYamlId": "Colin@Company_332",
+      "type": "PLASTIC",
+      "total": 30828
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_333",
+      "yamlId": "Colin@Company_332@Company_333",
+      "parentYamlId": "Colin@Company_332",
+      "type": null,
+      "total": 74277.25
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_63",
+      "yamlId": "Colin@Company_332@Company_63",
+      "parentYamlId": "Colin@Company_332",
+      "type": null,
+      "total": 6501
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_5",
+      "yamlId": "Colin@Company_332@Company_5",
+      "parentYamlId": "Colin@Company_332",
+      "type": "CONCRETE",
+      "total": 43420
+    },
+    {
+      "kind": "Client",
+      "name": "Company_334",
+      "yamlId": "Colin@Company_334",
+      "parentYamlId": "Colin",
+      "type": null,
+      "total": 43855.1
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_335",
+      "yamlId": "Colin@Company_334@Company_335",
+      "parentYamlId": "Colin@Company_334",
+      "type": null,
+      "total": 25200
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_8",
+      "yamlId": "Colin@Company_334@Company_8",
+      "parentYamlId": "Colin@Company_334",
+      "type": "INSTRUMENT",
+      "total": 2479
+    },
+    {
+      "kind": "Client",
+      "name": "Company_336",
+      "yamlId": "Colin@Company_336",
+      "parentYamlId": "Colin",
+      "type": null,
+      "total": 84971.41
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_282",
+      "yamlId": "Colin@Company_336@Company_282",
+      "parentYamlId": "Colin@Company_336",
+      "type": null,
+      "total": 53007.12
+    },
+    {
+      "kind": "Client",
+      "name": "Company_337",
+      "yamlId": "Colin@Company_337",
+      "parentYamlId": "Colin",
+      "type": null,
+      "total": 66757.46
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_5",
+      "yamlId": "Colin@Company_337@Company_5",
+      "parentYamlId": "Colin@Company_337",
+      "type": "CONCRETE",
+      "total": 49450
+    },
+    {
+      "kind": "Client",
+      "name": "Company_338",
+      "yamlId": "Colin@Company_338",
+      "parentYamlId": "Colin",
+      "type": null,
+      "total": 117661.72
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_59",
+      "yamlId": "Colin@Company_338@Company_59",
+      "parentYamlId": "Colin@Company_338",
+      "type": "PLASTIC",
+      "total": 45241
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_6",
+      "yamlId": "Colin@Company_338@Company_6",
+      "parentYamlId": "Colin@Company_338",
+      "type": "AQUA",
+      "total": 12654.84
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_5",
+      "yamlId": "Colin@Company_338@Company_5",
+      "parentYamlId": "Colin@Company_338",
+      "type": "CONCRETE",
+      "total": 51406
+    },
+    {
+      "kind": "Client",
+      "name": "Company_339",
+      "yamlId": "Colin@Company_339",
+      "parentYamlId": "Colin",
+      "type": null,
+      "total": 167955.4
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_176",
+      "yamlId": "Colin@Company_339@Company_176",
+      "parentYamlId": "Colin@Company_339",
+      "type": "FASTENER",
+      "total": 54092
+    },
+    {
+      "kind": "Supplier",
+      "name": "Company_59",
+      "yamlId": "Colin@Company_339@Company_59",
+      "parentYamlId": "Colin@Company_339",
+      "type": "PLASTIC",
+      "total": 42377.78
+    }
+  ]
+}

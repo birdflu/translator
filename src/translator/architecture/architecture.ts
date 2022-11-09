@@ -1,26 +1,25 @@
 import settings from "../settings.json";
-import { IYAMLRoot } from "./iYAML";
 import { Obj } from "./obj";
 
 export default class Architecture {
   id = "DIAGRAM";
   objects: Obj[] = [];
   kinds: string[] = [];
-  private meta: IYAMLRoot;
+  private meta: string;
 
-  constructor(meta: IYAMLRoot) {
-    this.meta = meta;
+  constructor(meta: string) {
+    this.meta = JSON.parse(meta);
     this.setKinds();
-
-    if (this.meta.elements) {
+    console.log(this.kinds);
+    if (this.meta['elements']) {
       this.kinds.forEach((kind) => this.addObject(kind));
     }
   }
 
   private setKinds(id?: string) {
     const elements = id
-      ? this.meta.elements.filter((o) => o.parentYamlId == id)
-      : this.meta.elements.filter((o) => !o.parentYamlId);
+      ? this.meta['elements'].filter((o) => o.parentYamlId == id)
+      : this.meta['elements'].filter((o) => !o.parentYamlId);
 
     for (const element of elements) {
       if (this.kinds.indexOf(element.kind) < 0) {
@@ -36,7 +35,7 @@ export default class Architecture {
   }
 
   private addObject(kind: string) {
-    this.meta.elements
+    this.meta['elements']
       .filter((o) => o.kind == kind)
       .forEach((mObject) => this.objects.push(new Obj(mObject, this)));
   }

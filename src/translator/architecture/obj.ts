@@ -26,7 +26,6 @@ class Obj {
 
     } else {
       this.idParent = meta['parentYamlId'];
-      console.log(this.id);
       this.hierarchyLevel = this.architecture.getObjectById(this.idParent).hierarchyLevel + 1;
     }
   }

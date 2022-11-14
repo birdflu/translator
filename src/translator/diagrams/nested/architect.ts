@@ -1,5 +1,4 @@
 import Architecture from "../../architecture/architecture";
-import settings from "../../settings.json";
 import {ConsoleColors} from "../../../utils/consoleColors";
 import {Geometry} from "../../geometry/geometry";
 import {Obj} from "../../architecture/obj";
@@ -16,22 +15,22 @@ enum DiagramLayout {
 }
 
 export default class Architect {
-  private _architecture: Architecture;
+  architecture: Architecture;
 
   constructor(architecture: Architecture) {
-    this._architecture = architecture;
+    this.architecture = architecture;
     this.setGeometry()
     architecture.log();
   }
 
   private setGeometry() {
-    const maxHierarchyLevel = this._architecture.getMaxHierarchyLevel();
+    const maxHierarchyLevel = this.architecture.getMaxHierarchyLevel();
 
     if (maxHierarchyLevel < 1) {
       return;
     }
 
-    switch (settings.diagram_layout.nested) {
+    switch (this.architecture.meta['settings']['diagram_layout']['nested']) {
       case DiagramLayout[DiagramLayout.diagonal]:
         this.setDiagonalGeometry(maxHierarchyLevel);
         break;
@@ -57,7 +56,7 @@ export default class Architect {
     if (level < 1) return;
 
     for (const obj of this.getObjectsWithGeometry(level)) {
-      const children = this._architecture.getLayerChildren(obj);
+      const children = this.architecture.getLayerChildren(obj);
       Architect.putFirstChild(children.shift(), obj);
       for (const child of children) {
         Architect.putChildBottom(child, obj);
@@ -70,7 +69,7 @@ export default class Architect {
     if (level < 1) return;
 
     for (const obj of this.getObjectsWithGeometry(level)) {
-      const children = this._architecture.getLayerChildren(obj);
+      const children = this.architecture.getLayerChildren(obj);
       Architect.putFirstChild(children.shift(), obj);
       for (const child of children) {
         Architect.putChildOnRightBottomDiagonal(child, obj);
@@ -83,7 +82,7 @@ export default class Architect {
     if (level < 1) return;
 
     for (const obj of this.getObjectsWithGeometry(level)) {
-      const children = this._architecture.getLayerChildren(obj);
+      const children = this.architecture.getLayerChildren(obj);
       Architect.putFirstChild(children.shift(), obj);
       for (const child of children) {
         const newPaddingHeight = obj.geometry.paddingHeight + child.geometry.layout.marginHeight;
@@ -104,7 +103,7 @@ export default class Architect {
     }
 
     for (const obj of this.getObjectsWithGeometry(level)) {
-      const children = this._architecture.getLayerChildren(obj);
+      const children = this.architecture.getLayerChildren(obj);
       const addedChildren: Obj[] = [];
       const firstChild = children.shift();
 
@@ -118,7 +117,7 @@ export default class Architect {
         const parkedPoint: Point = parkChildInEmptyRegion(child, obj, addedChildren);
 
         if (parkedPoint != null) {
-          if (settings.log_parking) {
+          if (this.architecture.meta['settings']['log_parking']) {
             console.log(
               getColorKeyValue(`park`, child.name, ConsoleColors.blue) +
               getColorKeyValue(`, point`, `(${parkedPoint.X},${parkedPoint.Y})`,
@@ -154,12 +153,16 @@ export default class Architect {
         addedRects.push(new Rectangle(a));
       }
 
-      let step = (settings.speed < 1) ? 1 : (settings.speed > 20) ? 20 : settings.speed;
+      let step = (obj.architecture.meta['settings']['speed'] < 1)
+        ? 1
+        : (obj.architecture.meta['settings']['speed'] > 20)
+          ? 20
+          : obj.architecture.meta['settings']['speed'];
 
       const childRect = new Rectangle(child);
       childRect.move(obj.geometry.left, obj.geometry.top);
       const isNotIntersect = function (rect: Rectangle): boolean {
-        return (settings.use_quick_intersect_detection)
+        return (obj.architecture.meta['settings']['use_quick_intersect_detection'])
           ? childRect.quickNotIntersect(rect)
           : childRect.notIntersect(rect)
       };
@@ -197,12 +200,13 @@ export default class Architect {
     }
   }
 
-  private static setDefaultGeometry(objects: Obj[]) {
+  private setDefaultGeometry(objects: Obj[]) {
     for (const obj of objects) {
-      obj.geometry = new Geometry(settings.geometry[obj.kind]);
+      const settings = this.architecture.meta['settings'];
+      obj.geometry = new Geometry(settings['geometry'][obj.kind]);
       if (obj.geometry.nameFormat) {
-        const sizeFieldName: number = obj.meta[settings.size_field_name];
-        const size: number = Math.sqrt(sizeFieldName) / settings.scale;
+        const sizeFieldName = settings['size_field_name'];
+        const size = Math.sqrt(Number.parseFloat(obj.meta[sizeFieldName])) / settings['scale'];
         obj.geometry.style =
           obj.geometry.style + "fontSize=" +
           (Math.round(Math.sqrt(size)) > 7 ? Math.round(1.8 * Math.sqrt(size)) : 12);
@@ -251,17 +255,17 @@ export default class Architect {
   }
 
   private getObjectsWithGeometry(level: number) {
-    const objects = this._architecture.getObjectsByLevel().get(level);
-    Architect.setDefaultGeometry(objects);
+    const objects = this.architecture.getObjectsByLevel().get(level);
+    this.setDefaultGeometry(objects);
     return objects.filter((o) => o.geometry);
   }
 
   private centering(level: number) {
     if (level < 1) return;
-    const objects = this._architecture.getObjectsByLevel().get(level);
+    const objects = this.architecture.getObjectsByLevel().get(level);
 
     for (const obj of objects) {
-      const children = this._architecture.getLayerChildren(obj);
+      const children = this.architecture.getLayerChildren(obj);
       const maxWidth = Math.max(...children.map((c) => c.geometry.layout.width));
 
       for (const child of children) {
@@ -271,9 +275,5 @@ export default class Architect {
     }
 
     this.centering(--level);
-  }
-
-  get architecture(): Architecture {
-    return this._architecture;
   }
 }

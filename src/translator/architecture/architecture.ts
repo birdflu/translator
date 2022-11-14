@@ -1,16 +1,15 @@
-import settings from "../settings.json";
 import { Obj } from "./obj";
 
 export default class Architecture {
   id = "DIAGRAM";
   objects: Obj[] = [];
   kinds: string[] = [];
-  private meta: string;
+  meta: string;
 
   constructor(meta: string) {
     this.meta = JSON.parse(meta);
     this.setKinds();
-    console.log(this.kinds);
+
     if (this.meta['elements']) {
       this.kinds.forEach((kind) => this.addObject(kind));
     }
@@ -98,8 +97,8 @@ export default class Architecture {
   }
 
   public log() {
-    if (settings.log_architecture) console.log(this.toString());
-    if (settings.log_architecture_statistic) {
+    if (this.meta['settings']['log_architecture']) console.log(this.toString());
+    if (this.meta['settings']['log_architecture_statistic']) {
       console.log(this.getKindStatistic());
       console.log(this.getLevelStatistic());
     }

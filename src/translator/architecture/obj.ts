@@ -16,7 +16,7 @@ class Obj {
   constructor(meta: string, architecture: Architecture) {
     this.architecture = architecture;
     this.meta = meta;
-    this.id = meta['yamlId'];
+    this.id = meta['id'];
     this.name = meta['name'];
     this.kind = meta['kind'];
 
@@ -25,7 +25,7 @@ class Obj {
       this.hierarchyLevel = 1;
 
     } else {
-      this.idParent = meta['parentYamlId'];
+      this.idParent = meta['idParent'];
       this.hierarchyLevel = this.architecture.getObjectById(this.idParent).hierarchyLevel + 1;
     }
   }

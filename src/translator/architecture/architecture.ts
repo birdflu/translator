@@ -17,15 +17,15 @@ export default class Architecture {
 
   private setKinds(id?: string) {
     const elements = id
-      ? this.meta['elements'].filter((o) => o.parentYamlId == id)
-      : this.meta['elements'].filter((o) => !o.parentYamlId);
+      ? this.meta['elements'].filter((o) => o.idParent == id)
+      : this.meta['elements'].filter((o) => !o.idParent);
 
     for (const element of elements) {
       if (this.kinds.indexOf(element.kind) < 0) {
         this.kinds.push(element.kind);
       }
 
-      this.setKinds(element.yamlId);
+      this.setKinds(element.id);
     }
 
     if (elements.length == 0) {

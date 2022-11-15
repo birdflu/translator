@@ -5136,5 +5136,152 @@
       "type": "PLASTIC",
       "total": 42377.78
     }
-  ]
+  ],
+  "settings": {
+    "comments": [
+      {
+        "valid values for diagram_layout": {
+          "nested": [
+            "diagonal",
+            "list",
+            "centerList",
+            "stupidSquare",
+            "square"
+          ]
+        }
+      },
+      {
+        "valid values for speed": "1 (slow, quality) - 20 (fast, dirty)"
+      },
+      {
+        "valid values for output": [
+          "response",
+          "file"
+        ]
+      }
+    ],
+    "diagram_layout": {
+      "nested": "square"
+    },
+    "wrap_white_space": true,
+    "relative": true,
+    "speed": 10,
+    "use_quick_intersect_detection": true,
+    "log_parking": false,
+    "log_architecture": false,
+    "log_architecture_statistic": true,
+    "log_warnings": true,
+    "type_field_name": "type",
+    "size_field_name": "total",
+    "scale": 10,
+    "geometry": {
+      "Supplier": {
+        "style": "align=left;overflow=fill;html=1;dropTarget=0;fontFamily=Tahoma;verticalAlign=top;strokeColor=#9E9E9E;fontColor=#575757;$IMAGE;imageAlign=right;imageVerticalAlign=bottom;shadow=1;whiteSpace=wrap;",
+        "nameFormat": {
+          "properties": {
+            "1": "type",
+            "2": "total"
+          }
+        },
+        "top": 80,
+        "paddingHeight": 20,
+        "bottom": 5,
+        "left": 120,
+        "paddingWidth": 20,
+        "right": 5,
+        "marginTop": 14,
+        "marginBottom": 14,
+        "marginLeft": 14,
+        "marginRight": 14
+      },
+      "Client": {
+        "style": "html=1;fillColor=#D5E8D4;strokeColor=#1890FF;fontColor=#595959;verticalAlign=top;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;align=left;fontSize=24;shadow=1;whiteSpace=wrap;",
+        "nameFormat": null,
+        "top": 55,
+        "paddingHeight": 60,
+        "bottom": 5,
+        "left": 20,
+        "paddingWidth": 170,
+        "right": 5,
+        "marginTop": 14,
+        "marginBottom": 14,
+        "marginLeft": 14,
+        "marginRight": 14
+      },
+      "Manager": {
+        "style": "html=1;strokeColor=#FAAD14;fillColor=#FFFbe6;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=top;spacingLeft=10;spacingTop=11;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;fontColor=#595959;fontSize=36;shadow=1;whiteSpace=wrap;",
+        "nameFormat": null,
+        "top": 50,
+        "paddingHeight": 60,
+        "bottom": 5,
+        "left": 5,
+        "paddingWidth": 170,
+        "right": 5,
+        "marginTop": 14,
+        "marginBottom": 14,
+        "marginLeft": 14,
+        "marginRight": 14
+      },
+      "Sales": {
+        "style": "html=1;fillColor=#E1D5E7;strokeColor=#86D65F;verticalAlign=top;fontFamily=Tahoma;spacingLeft=50;spacingTop=5;align=left;fontColor=#262626;fontSize=36;shadow=1;whiteSpace=wrap;",
+        "nameFormat": null,
+        "top": 50,
+        "paddingHeight": 60,
+        "bottom": 40,
+        "left": 40,
+        "paddingWidth": 170,
+        "right": 40,
+        "marginTop": 5,
+        "marginBottom": 20,
+        "marginLeft": 10,
+        "marginRight": 40
+      },
+      "Default": {
+        "style": "html=1;fillColor=#CCCCCC;strokeColor=#86D65F;verticalAlign=top;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;align=left;fontColor=#262626;fontSize=14;shadow=1;whiteSpace=wrap;",
+        "nameFormat": null,
+        "top": 40,
+        "paddingHeight": 60,
+        "bottom": 40,
+        "left": 40,
+        "paddingWidth": 170,
+        "right": 40,
+        "marginTop": 5,
+        "marginBottom": 20,
+        "marginLeft": 10,
+        "marginRight": 40
+      }
+    },
+    "image": {
+      "METAL": {
+        "url": "image=https://s.alicdn.com/@sc04/kf/HTB1fV9gennI8KJjSszgq6A8ApXaX.jpg;imageWidth=48;imageHeight=48;"
+      },
+      "AQUA": {
+        "url": "image=https://avatars.mds.yandex.net/get-zen_doc/1589334/pub_5f944a58d2b7e4128863d1a4_5f944b0498e57704a135d0ee/scale_1200;imageWidth=48;imageHeight=48;"
+      },
+      "CONCRETE": {
+        "url": "image=https://img02.flagma.ru/photo/zhb-izdeliya-5488643_medium.jpg;imageWidth=48;imageHeight=48;"
+      },
+      "FASTENER": {
+        "url": "image=https://img01.flagma.ru/photo/fiksator-struny-barera-bezopasnosti-8709856_medium.jpg;imageWidth=48;imageHeight=48;"
+      },
+      "TUBE": {
+        "url": "image=https://pipe.avmg.com.ua/de/img/products/tube-circle.png;imageWidth=48;imageHeight=48;"
+      },
+      "PLASTIC": {
+        "url": "image=https://steel-centre.ru/upload/resize_cache/uf/82d/339_226_1/fitingi_pragma.jpg;imageWidth=48;imageHeight=48;"
+      },
+      "INSTRUMENT": {
+        "url": "image=https://static1.dom-podarka.ru/img/products/09/0983-056-dp3.jpg;imageWidth=48;imageHeight=48;"
+      },
+      "FIRE": {
+        "url": "image=https://ae01.alicdn.com/kf/HTB1WY0RcgoQMeJjy0Fnq6z8gFXaI.jpg;imageWidth=48;imageHeight=48;"
+      },
+      "ELECTRICITY": {
+        "url": "image=https://optes.ru/wp-content/uploads/2021/07/16-2.jpg;imageWidth=48;imageHeight=48;"
+      },
+      "UNDEFINED": {
+        "url": "image=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/WikiFont_uniE018_-_cog_-_blue.svg/1024px-WikiFont_uniE018_-_cog_-_blue.svg.png;imageWidth=48;imageHeight=48;"
+      }
+    }
+  }
 }

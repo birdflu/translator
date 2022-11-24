@@ -1,6 +1,7 @@
 import {Layout} from "../geometry/geometry";
 
-var xml = require('xml');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const xml = require('xml');
 
 export class Drawio {
   public getDiagram(id: string) {
@@ -86,11 +87,30 @@ export class Drawio {
     }, true)
   }
 
-  public getHeader(host: string, modified: string, agent: string, etag: string, compressed: string, version: string,
-                   type: string, diagram_id: string, diagram_name: string, dx: string, dy: string,
-                   grid: string, gridSize: string, guides: string, tooltips: string, connect: string,
-                   arrows: string, fold: string, page: string, pageScale: string, pageWidth: string,
-                   pageHeight: string, math: string, shadow: string) {
+  public getHeader(host: string,
+                   modified: string,
+                   agent: string,
+                   etag: string,
+                   compressed: string,
+                   version: string,
+                   type: string,
+                   diagram_id: string,
+                   diagram_name: string,
+                   dx: string,
+                   dy: string,
+                   grid: string,
+                   gridSize: string,
+                   guides: string,
+                   tooltips: string,
+                   connect: string,
+                   arrows: string,
+                   fold: string,
+                   page: string,
+                   pageScale: string,
+                   pageWidth: string,
+                   pageHeight: string,
+                   math: string,
+                   shadow: string) {
     return xml({
       mxfile: [{
         _attr: {

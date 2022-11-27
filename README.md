@@ -5,14 +5,15 @@ If the data has a hierarchy, then geometry elements have hierarchical nesting to
 
 ## Install and start
 > npm install
+
 > npm start
 
 ## Use service example
-> curl -X POST --data-binary @data/sales.json -H "Content-type: text/x-yaml" http://localhost:5000/diagram
+> curl -X POST --data-binary @data/mushrooms-en.json -H "Content-type: text/x-yaml" http://localhost:5000/diagram
 
 ## Result
 
-Translator gets the input data json file like this:
+Translator gets the input data and settings json file like this:
 
 ```
 {
@@ -44,6 +45,26 @@ Translator gets the input data json file like this:
     },
     ...
   ]
+"settings": {
+  "diagram_layout": {
+    "nested": "square"
+  },
+  "geometry": {
+    "SubKingdom": {
+      "style": "html=1;rounded=1;strokeColor=#FAAD14;fillColor=#FFFbe6;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;spacingLeft=10;spacingTop=11;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;fontColor=#595959;fontSize=25;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;",
+      "nameFormat": null,
+      "top": 50,
+      "paddingHeight": 60,
+      "bottom": 5,
+      "left": 5,
+      "paddingWidth": 170,
+      "right": 5,
+      "marginTop": 14,
+      "marginBottom": 14,
+      "marginLeft": 14,
+      "marginRight": 14
+    },
+    ...
 }
 ```
 and generates diagram like this: 

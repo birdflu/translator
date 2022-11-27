@@ -1,0 +1,227 @@
+{
+  "elements": [
+    {
+      "kind": "ЦАРСТВО",
+      "name": "ЦАРСТВО ГРИБОВ",
+      "id": "ЦАРСТВО",
+      "idParent": null
+    },
+    {
+      "kind": "ПОДЦАРСТВО",
+      "name": "Шляпочные",
+      "id": "Шляпочные",
+      "idParent": "ЦАРСТВО"
+    },
+    {
+      "kind": "ПОДЦАРСТВО",
+      "name": "Грибы– паразиты",
+      "id": "Грибы– паразиты",
+      "idParent": "ЦАРСТВО"
+    },
+    {
+      "kind": "ПОДЦАРСТВО",
+      "name": "Плесневелые",
+      "id": "Плесневелые",
+      "idParent": "ЦАРСТВО"
+    },
+    {
+      "kind": "ПОДЦАРСТВО",
+      "name": "Дрожжи",
+      "id": "Дрожжи",
+      "idParent": "ЦАРСТВО"
+    },
+    {
+      "kind": "ЯДОВИТОСТЬ",
+      "name": "Съедобные",
+      "id": "Съедобные",
+      "idParent": "Шляпочные"
+    },
+    {
+      "kind": "ЯДОВИТОСТЬ",
+      "name": "Условно– съедобные",
+      "id": "Условно– съедобные",
+      "idParent": "Шляпочные"
+    },
+    {
+      "kind": "ЯДОВИТОСТЬ",
+      "name": "Ядовитые",
+      "id": "Ядовитые",
+      "idParent": "Шляпочные"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Белый гриб",
+      "id": "Белый_гриб",
+      "idParent": "Съедобные"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Подберёзовик",
+      "id": "Подберёзовик",
+      "idParent": "Съедобные"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Лисички",
+      "id": "Лисички",
+      "idParent": "Съедобные"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Опёнок",
+      "id": "Опёнок",
+      "idParent": "Съедобные"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Подосиновик",
+      "id": "Подосиновик",
+      "idParent": "Съедобные"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Сыроежка",
+      "id": "Сыроежка",
+      "idParent": "Съедобные"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Волнушка",
+      "id": "Волнушка",
+      "idParent": "Условно– съедобные"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Свинушка",
+      "id": "Свинушка",
+      "idParent": "Условно– съедобные"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Валуй",
+      "id": "Валуй",
+      "idParent": "Условно– съедобные"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Мухомор пантерный",
+      "id": "Мухомор пантерный",
+      "idParent": "Ядовитые"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Ложная лисичка",
+      "id": "Ложная лисичка",
+      "idParent": "Ядовитые"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Бледная поганка",
+      "id": "Бледная поганка",
+      "idParent": "Ядовитые"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Головня",
+      "id": "Головня",
+      "idParent": "Грибы– паразиты"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Спорынья",
+      "id": "Спорынья",
+      "idParent": "Грибы– паразиты"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Трутовик",
+      "id": "Трутовик",
+      "idParent": "Грибы– паразиты"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Мукор",
+      "id": "Мукор",
+      "idParent": "Плесневелые"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Пеницилл",
+      "id": "Пеницилл",
+      "idParent": "Плесневелые"
+    },
+    {
+      "kind": "Гриб",
+      "name": "Дрожжи шарики",
+      "id": "Дрожжи шарики",
+      "idParent": "Дрожжи"
+    }
+  ],
+  "settings": {
+    "diagram_layout": {
+      "nested": "square"
+    },
+    "log_warnings": true,
+    "type_field_name": "",
+    "size_field_name": "",
+    "scale": 10,
+    "geometry": {
+      "Гриб": {
+        "style": "html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;",
+        "nameFormat": null,
+        "top": 80,
+        "paddingHeight": 20,
+        "bottom": 5,
+        "left": 120,
+        "paddingWidth": 20,
+        "right": 5,
+        "marginTop": 14,
+        "marginBottom": 14,
+        "marginLeft": 14,
+        "marginRight": 14
+      },
+      "ЯДОВИТОСТЬ": {
+        "style": "html=1;rounded=1;fillColor=#ADD1FF;strokeColor=#1890FF;fontColor=#595959;verticalAlign=top;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;align=center;fontSize=24;shadow=1;whiteSpace=wrap;",
+        "nameFormat": null,
+        "top": 55,
+        "paddingHeight": 60,
+        "bottom": 5,
+        "left": 20,
+        "paddingWidth": 170,
+        "right": 5,
+        "marginTop": 14,
+        "marginBottom": 14,
+        "marginLeft": 14,
+        "marginRight": 14
+      },
+      "ПОДЦАРСТВО": {
+        "style": "html=1;rounded=1;strokeColor=#FAAD14;fillColor=#FFFbe6;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;spacingLeft=10;spacingTop=11;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;fontColor=#595959;fontSize=25;shadow=1;whiteSpace=wrap;",
+        "nameFormat": null,
+        "top": 50,
+        "paddingHeight": 60,
+        "bottom": 5,
+        "left": 5,
+        "paddingWidth": 170,
+        "right": 5,
+        "marginTop": 14,
+        "marginBottom": 14,
+        "marginLeft": 14,
+        "marginRight": 14
+      },
+      "ЦАРСТВО": {
+        "style": "html=1;rounded=1;fillColor=#9AC7BF;gradientColor=#ffffff;strokeColor=#86D65F;verticalAlign=top;fontFamily=Tahoma;spacingLeft=50;spacingTop=5;align=center;fontColor=#262626;fontSize=36;shadow=1;whiteSpace=wrap;",
+        "nameFormat": null,
+        "top": 50,
+        "paddingHeight": 60,
+        "bottom": 40,
+        "left": 40,
+        "paddingWidth": 170,
+        "right": 40,
+        "marginTop": 5,
+        "marginBottom": 20,
+        "marginLeft": 10,
+        "marginRight": 40
+      }
+    }
+  }
+}

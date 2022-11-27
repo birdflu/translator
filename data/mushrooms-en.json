@@ -1,0 +1,229 @@
+{
+  "elements": [
+    {
+      "kind": "Kingdom",
+      "name": "Kingdom Fungi",
+      "id": "Kingdom",
+      "idParent": null
+    },
+    {
+      "kind": "SubKingdom",
+      "name": "Hat",
+      "id": "Hat",
+      "idParent": "Kingdom"
+    },
+    {
+      "kind": "SubKingdom",
+      "name": "Parasite",
+      "id": "Parasite",
+      "idParent": "Kingdom"
+    },
+    {
+      "kind": "SubKingdom",
+      "name": "Mould",
+      "id": "Mould",
+      "idParent": "Kingdom"
+    },
+    {
+      "kind": "SubKingdom",
+      "name": "Yeast",
+      "id": "Yeast",
+      "idParent": "Kingdom"
+    },
+    {
+      "kind": "Toxicity",
+      "name": "Edible",
+      "id": "Edible",
+      "idParent": "Hat"
+    },
+    {
+      "kind": "Toxicity",
+      "name": "Semiedible",
+      "id": "Semiedible",
+      "idParent": "Hat"
+    },
+    {
+      "kind": "Toxicity",
+      "name": "Poisonous",
+      "id": "Poisonous",
+      "idParent": "Hat"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Boletus edulis",
+      "id": "Boletus_edulis",
+      "idParent": "Edible"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Boletus",
+      "id": "Boletus",
+      "idParent": "Edible"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Chanterelle",
+      "id": "Chanterelle",
+      "idParent": "Edible"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Honey agaric",
+      "id": "Honeyagaric",
+      "idParent": "Edible"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Aspen mushroom",
+      "id": "Aspen_mushroom",
+      "idParent": "Edible"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Russula",
+      "id": "Russula",
+      "idParent": "Edible"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Lactarius torminosus",
+      "id": "Lactarius_torminosus",
+      "idParent": "Semiedible"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Paxillus",
+      "id": "Paxillus",
+      "idParent": "Semiedible"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Russula foetens",
+      "id": "Russula_foetens",
+      "idParent": "Semiedible"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Amanita pantherina",
+      "id": "Amanita_pantherina",
+      "idParent": "Poisonous"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Hygrophoropsis aurantiaca",
+      "id": "Hygrophoropsis_aurantiaca",
+      "idParent": "Poisonous"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Amanita phalloides",
+      "id": "Amanita_phalloides",
+      "idParent": "Poisonous"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Ttritici",
+      "id": "Ttritici",
+      "idParent": "Parasite"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Claviceps",
+      "id": "Claviceps",
+      "idParent": "Parasite"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Albatrellus",
+      "id": "Albatrellus",
+      "idParent": "Parasite"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Mucor",
+      "id": "Mucor",
+      "idParent": "Mould"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Penicillium",
+      "id": "Penicillium",
+      "idParent": "Mould"
+    },
+    {
+      "kind": "Fungal",
+      "name": "Yeast balls",
+      "id": "Yeast_balls",
+      "idParent": "Yeast"
+    }
+  ],
+  "settings": {
+    "diagram_layout": {
+      "nested": "square"
+    },
+    "log_warnings": true,
+    "use_quick_intersect_detection": true,
+    "speed": 1,
+    "type_field_name": "",
+    "size_field_name": "",
+    "scale": 10,
+    "geometry": {
+      "Fungal": {
+        "style": "html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;",
+        "nameFormat": null,
+        "top": 80,
+        "paddingHeight": 20,
+        "bottom": 5,
+        "left": 120,
+        "paddingWidth": 20,
+        "right": 5,
+        "marginTop": 14,
+        "marginBottom": 14,
+        "marginLeft": 14,
+        "marginRight": 14
+      },
+      "Toxicity": {
+        "style": "html=1;rounded=1;fillColor=#ADD1FF;strokeColor=#1890FF;fontColor=#595959;verticalAlign=top;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;align=center;fontSize=24;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;",
+        "nameFormat": null,
+        "top": 55,
+        "paddingHeight": 60,
+        "bottom": 5,
+        "left": 20,
+        "paddingWidth": 170,
+        "right": 5,
+        "marginTop": 14,
+        "marginBottom": 14,
+        "marginLeft": 14,
+        "marginRight": 14
+      },
+      "SubKingdom": {
+        "style": "html=1;rounded=1;strokeColor=#FAAD14;fillColor=#FFFbe6;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;spacingLeft=10;spacingTop=11;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;fontColor=#595959;fontSize=25;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;",
+        "nameFormat": null,
+        "top": 50,
+        "paddingHeight": 60,
+        "bottom": 5,
+        "left": 5,
+        "paddingWidth": 170,
+        "right": 5,
+        "marginTop": 14,
+        "marginBottom": 14,
+        "marginLeft": 14,
+        "marginRight": 14
+      },
+      "Kingdom": {
+        "style": "html=1;rounded=1;fillColor=#9AC7BF;gradientColor=#ffffff;strokeColor=#86D65F;verticalAlign=top;fontFamily=Tahoma;spacingLeft=50;spacingTop=5;align=center;fontColor=#262626;fontSize=36;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;",
+        "nameFormat": null,
+        "top": 50,
+        "paddingHeight": 60,
+        "bottom": 40,
+        "left": 40,
+        "paddingWidth": 170,
+        "right": 40,
+        "marginTop": 5,
+        "marginBottom": 20,
+        "marginLeft": 10,
+        "marginRight": 40
+      }
+    }
+  }
+}

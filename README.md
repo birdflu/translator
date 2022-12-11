@@ -190,38 +190,22 @@ Data section has
 besides it, section "geometry" set minimal default size (px) of objects:  
 ```
     "geometry": {
-        "top": number,
-        "paddingHeight": number,
-        "bottom": number,
-        "left": number,
-        "paddingWidth": number,
-        "right": number,
-        "marginTop": number,
-        "marginBottom": number,
-        "marginLeft": number,
-        "marginRight": number
+        "top": number (0),
+        "paddingHeight": number (1),
+        "bottom": number (2),
+        "left": number (3),
+        "paddingWidth": number (4),
+        "right": number (5),
+        "marginTop": number (6),
+        "marginBottom": number (7),
+        "marginLeft": number (8),
+        "marginRight": number (9)
       },
   
-                          //       (0)----------------------- 13 ------------------------------> (x)
-  top:                    //  0      |                                   |                  |
-  paddingHeight:          //  1      |                                   6                  |
-  bottom:                 //  2      |      __________________ 11 _______|____________      |
-  left:                   //  3      |      |               |                        |      |
-  paddingWidth:           //  4      |_ 8 __|               0                        |_ 9 __|
-  right:                  //  5      |      |               |                        |      |
-  marginTop:              //  6      |      |            ___|_______________         |      |
-  marginBottom:           //  7      |      |           |                   |        |      |
-  marginLeft:             //  8     12     10           1                   |        |      |
-  marginRight:            //  9      |      |           |                   |        |      |
-                          //         |      |---- 3 ----|                   |-- 5 ---|      |
-                          //         |      |           |_______ 4 _________|        |      |
-                          //         |      |              |                         |      |
-                          //         |      |              2                         |      |
-                          //         |      |______________|_________________________|      |
-                          //         |                                    |                 |
-                          //         |                                    7                 |
-                          //         |____________________________________|_________________|
-                          //        \/
-                          //        (y)
+    10 - object visible height  
+    11 - object visible width
+    12 - object margin height
+    13 - object margin width
+ ```
+![](etc/readme/ex4.png) 
 
-```

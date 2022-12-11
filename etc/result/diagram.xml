@@ -1,0 +1,140 @@
+<mxfile host="app.diagrams.net" modified="" agent="" etag="-lJEG1eLUpV0zzp1f58H" compressed="false" version="14.6.11" type="device">
+    <diagram id="Diagram-1" name="Diagram">
+        <mxGraphModel dx="2012" dy="1241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+<mxCell id="DIAGRAM-d"/>
+<mxCell id="DIAGRAM" parent="DIAGRAM-d"/>
+<mxCell id="Boletus_edulis" parent="Edible" value="Boletus edulis" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="34" y="69" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Boletus" parent="Edible" value="Boletus" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="34" y="203" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Chanterelle" parent="Edible" value="Chanterelle" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="208" y="69" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Honeyagaric" parent="Edible" value="Honey agaric" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="208" y="203" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Aspen_mushroom" parent="Edible" value="Aspen mushroom" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="34" y="337" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Russula" parent="Edible" value="Russula" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="208" y="337" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Lactarius_torminosus" parent="Semiedible" value="Lactarius torminosus" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="34" y="69" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Paxillus" parent="Semiedible" value="Paxillus" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="34" y="203" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Russula_foetens" parent="Semiedible" value="Russula foetens" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="208" y="69" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Amanita_pantherina" parent="Poisonous" value="Amanita pantherina" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="34" y="69" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Hygrophoropsis_aurantiaca" parent="Poisonous" value="Hygrophoropsis aurantiaca" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="34" y="203" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Amanita_phalloides" parent="Poisonous" value="Amanita phalloides" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="208" y="69" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Edible" parent="Hat" value="Edible" style="html=1;rounded=1;fillColor=#ADD1FF;strokeColor=#1890FF;fontColor=#595959;verticalAlign=top;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;align=center;fontSize=24;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="372" height="461" relative="1" as="geometry">
+        <mxPoint x="19" y="64" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Semiedible" parent="Hat" value="Semiedible" style="html=1;rounded=1;fillColor=#ADD1FF;strokeColor=#1890FF;fontColor=#595959;verticalAlign=top;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;align=center;fontSize=24;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="372" height="327" relative="1" as="geometry">
+        <mxPoint x="420" y="64" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Poisonous" parent="Hat" value="Poisonous" style="html=1;rounded=1;fillColor=#ADD1FF;strokeColor=#1890FF;fontColor=#595959;verticalAlign=top;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;align=center;fontSize=24;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="372" height="327" relative="1" as="geometry">
+        <mxPoint x="19" y="554" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Ttritici" parent="Parasite" value="Ttritici" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="19" y="64" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Claviceps" parent="Parasite" value="Claviceps" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="19" y="198" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Albatrellus" parent="Parasite" value="Albatrellus" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="193" y="64" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Mucor" parent="Mould" value="Mucor" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="19" y="64" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Penicillium" parent="Mould" value="Penicillium" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="19" y="198" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Yeast_balls" parent="Yeast" value="Yeast balls" style="html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="145" height="105" relative="1" as="geometry">
+        <mxPoint x="19" y="64" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Hat" parent="Kingdom" value="Hat" style="html=1;rounded=1;strokeColor=#FAAD14;fillColor=#FFFbe6;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;spacingLeft=10;spacingTop=11;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;fontColor=#595959;fontSize=25;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="811" height="900" relative="1" as="geometry">
+        <mxPoint x="54" y="64" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Parasite" parent="Kingdom" value="Parasite" style="html=1;rounded=1;strokeColor=#FAAD14;fillColor=#FFFbe6;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;spacingLeft=10;spacingTop=11;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;fontColor=#595959;fontSize=25;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="357" height="322" relative="1" as="geometry">
+        <mxPoint x="894" y="64" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Mould" parent="Kingdom" value="Mould" style="html=1;rounded=1;strokeColor=#FAAD14;fillColor=#FFFbe6;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;spacingLeft=10;spacingTop=11;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;fontColor=#595959;fontSize=25;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="183" height="322" relative="1" as="geometry">
+        <mxPoint x="894" y="415" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Yeast" parent="Kingdom" value="Yeast" style="html=1;rounded=1;strokeColor=#FAAD14;fillColor=#FFFbe6;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;spacingLeft=10;spacingTop=11;fontFamily=Tahoma;spacingLeft=10;spacingTop=5;fontColor=#595959;fontSize=25;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="183" height="188" relative="1" as="geometry">
+        <mxPoint x="894" y="766" as="offset"/>
+    </mxGeometry>
+</mxCell>
+<mxCell id="Kingdom" parent="DIAGRAM" value="Kingdom Fungi" style="html=1;rounded=1;fillColor=#9AC7BF;gradientColor=#ffffff;strokeColor=#86D65F;verticalAlign=top;fontFamily=Tahoma;spacingLeft=50;spacingTop=5;align=center;fontColor=#262626;fontSize=36;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;" vertex="1">
+    <mxGeometry width="1305" height="1018" relative="1" as="geometry">
+        <mxPoint x="168" y="200" as="offset"/>
+    </mxGeometry>
+</mxCell>
+</root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,6 +1,6 @@
 {
   "name": "translator",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "App transform json info to draw.io diagram",
   "main": "main.js",
   "scripts": {

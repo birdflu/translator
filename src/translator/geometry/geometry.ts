@@ -13,8 +13,8 @@ export class Geometry {
   marginTop: number;      //  6      |      |            ___|_______________         |      |
   marginBottom: number;   //  7      |      |           |                   |        |      |
   marginLeft: number;     //  8     12     10           1                   |        |      |
-  marginRight: number;
-  layout: Layout;         //  9      |      |---- 3 ----|                   |-- 5 ---|      |
+  marginRight: number;    //  9      |      |           |                   |        |      |
+  layout: Layout;         //         |      |---- 3 ----|                   |-- 5 ---|      |
                           //         |      |           |_______ 4 _________|        |      |
                           //         |      |              |                         |      |
                           //         |      |              2                         |      |

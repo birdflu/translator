@@ -165,6 +165,7 @@
     "type_field_name": "",
     "size_field_name": "",
     "scale": 10,
+    "output": "response",
     "geometry": {
       "Гриб": {
         "style": "html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;",

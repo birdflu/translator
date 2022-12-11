@@ -159,7 +159,7 @@
   ],
   "settings": {
     "diagram_layout": {
-      "nested": "square"
+      "nested": "centerList"
     },
     "log_warnings": true,
     "use_quick_intersect_detection": true,
@@ -167,6 +167,7 @@
     "type_field_name": "",
     "size_field_name": "",
     "scale": 10,
+    "output": "response",
     "geometry": {
       "Fungal": {
         "style": "html=1;ellipse;fillColor=#DAE8FC;strokeColor=#2111B8;fontColor=#005587;verticalAlign=middle;align=center;fontFamily=Tahoma;fontSize=20;shadow=1;whiteSpace=wrap;absoluteArcSize=1;arcSize=48;",

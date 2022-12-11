@@ -670,7 +670,7 @@
       "id": "Mary@Company_60@Company_6",
       "idParent": "Mary@Company_60",
       "type": "AQUA",
-      "total": 1000480.7100000001
+      "total": 1000480.71
     },
     {
       "kind": "Supplier",
@@ -678,7 +678,7 @@
       "id": "Mary@Company_60@Company_29",
       "idParent": "Mary@Company_60",
       "type": "METAL",
-      "total": 1230325.1800000002
+      "total": 1230325.18
     },
     {
       "kind": "Supplier",
@@ -686,7 +686,7 @@
       "id": "Mary@Company_60@Company_72",
       "idParent": "Mary@Company_60",
       "type": "FASTENER",
-      "total": 628725.8999999999
+      "total": 628725.9
     },
     {
       "kind": "Supplier",
@@ -702,7 +702,7 @@
       "id": "Mary@Company_60@Company_74",
       "idParent": "Mary@Company_60",
       "type": "ELECTRICITY",
-      "total": 385761.57999999996
+      "total": 385761.58
     },
     {
       "kind": "Supplier",
@@ -5174,6 +5174,7 @@
     "type_field_name": "type",
     "size_field_name": "total",
     "scale": 10,
+    "output": "file",
     "geometry": {
       "Supplier": {
         "style": "align=left;overflow=fill;html=1;dropTarget=0;fontFamily=Tahoma;verticalAlign=top;strokeColor=#9E9E9E;fontColor=#575757;$IMAGE;imageAlign=right;imageVerticalAlign=bottom;shadow=1;whiteSpace=wrap;rounded=1;arcSize=30;absoluteArcSize=1;",

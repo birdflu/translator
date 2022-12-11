@@ -7,7 +7,7 @@ export default class Architecture {
   meta: string;
 
   constructor(meta: string) {
-    this.meta = JSON.parse(meta);
+    this.meta = meta;
     this.setKinds();
 
     if (this.meta['elements']) {

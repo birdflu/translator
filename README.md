@@ -9,11 +9,21 @@ If the data has a hierarchy, then geometry elements have hierarchical nesting to
 > npm start
 
 ## Use service example
-> curl -X POST --data-binary @data/mushrooms-en.json -H "Content-type: text/x-yaml" http://localhost:5000/diagram
+mushrooms example:
+> curl -X POST --data-binary @etc/data/mushrooms-en.json -H "Content-type: text/x-yaml" http://localhost:5000/diagram
+
+sales example:
+> curl -X POST --data-binary @etc/data/sales.json -H "Content-type: text/x-yaml" http://localhost:5000/diagram
+
+The input file has "settings" section, where you can set the value of output: 
+```
+ "output": "response" - receive http response 
+ "output": "file"     - write result to data/diagram.xml
+```
 
 ## Result
 
-Translator gets the input data and settings json file like this:
+The translator receives input data and settings in json format as follows:
 
 ```
 {
@@ -69,7 +79,7 @@ Translator gets the input data and settings json file like this:
 ```
 and generates diagram like this: 
 
-![](data/diagram.jpg)
+![](etc/readme/diagram.jpg)
 
 ## Input data format
 
@@ -95,4 +105,123 @@ Data section has
 
 ### Settings section:
 
-// to be continued ...
+Data section has 
+
+```
+  "settings": {
+    "diagram_layout": { 
+        the type of diagram ["nested"]: 
+        the type of diagram layout - the one of ["diagonal",
+                                                 "list",
+                                                 "centerList",
+                                                 "stupidSquare",
+                                                 "square"
+                                                ]},
+```
+  the example of diagonal layout:
+  
+![](etc/readme/ex2.png)
+
+  the example of centerList layout:
+
+![](etc/readme/ex3.png)
+
+```
+    "log_warnings": to allow log output
+    "scale": 10,
+    "use_quick_intersect_detection": to allow quick draw algorithm, use only for the correctly oriented rectangles
+    "speed": natural number of quality placement figures in the free space (1 - high quality, low speed)
+    "type_field_name": the name of json data field key, which defines type of object, 
+                       the value of this data field could be key of "image" settings section below.
+    "size_field_name": the name of json data field key, which defines size value.
+    "scale": scaling coefficient
+    "geometry": {
+         <name of kind>: {
+           "style": css style of figure,
+           "nameFormat": {
+             "properties": {
+               "1": the first name field, value will be put out
+               "2": the second name field, value will be put out
+             }
+           },
+
+       for example, data/sales.json has objects in data secton:
+        {
+          "kind": "Supplier",
+          "name": "Company_78",
+          "id": "Mary@Company_60@Company_78",
+          "idParent": "Mary@Company_60",
+          "type": "ELECTRICITY",
+          "total": 2461608.08
+        },
+        {
+          "kind": "Supplier",
+          "name": "Company_29",
+          "id": "Mary@Company_60@Company_29",
+          "idParent": "Mary@Company_60",
+          "type": "METAL",
+          "total": 1230325.18
+        },
+        and has settings:
+           "type_field_name": "type",
+           "size_field_name": "total",
+           "image": {
+             "METAL": {
+                "url": "image=https://<metal>.jpg;imageWidth=48;imageHeight=48;"
+              },
+             "ELECTRICITY": {
+                "url": "image=https://<electricity>.jpg;imageWidth=48;imageHeight=48;"
+              },
+           "geometry": {
+             <name of kind>: {
+               "style": css style of figure,
+               "nameFormat": {
+                 "properties": {
+                   "1": "type",
+                   "2": "total"
+                 }
+               },
+
+```
+ the result will be:
+   
+![](etc/readme/ex1.png)
+
+besides it, section "geometry" set minimal default size (px) of objects:  
+```
+    "geometry": {
+        "top": number,
+        "paddingHeight": number,
+        "bottom": number,
+        "left": number,
+        "paddingWidth": number,
+        "right": number,
+        "marginTop": number,
+        "marginBottom": number,
+        "marginLeft": number,
+        "marginRight": number
+      },
+  
+                          //       (0)----------------------- 13 ------------------------------> (x)
+  top:                    //  0      |                                   |                  |
+  paddingHeight:          //  1      |                                   6                  |
+  bottom:                 //  2      |      __________________ 11 _______|____________      |
+  left:                   //  3      |      |               |                        |      |
+  paddingWidth:           //  4      |_ 8 __|               0                        |_ 9 __|
+  right:                  //  5      |      |               |                        |      |
+  marginTop:              //  6      |      |            ___|_______________         |      |
+  marginBottom:           //  7      |      |           |                   |        |      |
+  marginLeft:             //  8     12     10           1                   |        |      |
+  marginRight:            //  9      |      |           |                   |        |      |
+                          //         |      |---- 3 ----|                   |-- 5 ---|      |
+                          //         |      |           |_______ 4 _________|        |      |
+                          //         |      |              |                         |      |
+                          //         |      |              2                         |      |
+                          //         |      |______________|_________________________|      |
+                          //         |                                    |                 |
+                          //         |                                    7                 |
+                          //         |____________________________________|_________________|
+                          //        \/
+                          //        (y)
+
+```

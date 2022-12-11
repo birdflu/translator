@@ -159,7 +159,7 @@
   ],
   "settings": {
     "diagram_layout": {
-      "nested": "square"
+      "nested": "centerList"
     },
     "log_warnings": true,
     "type_field_name": "",

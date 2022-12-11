@@ -1,12 +1,16 @@
 {
   "name": "translator",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "App transform json info to draw.io diagram",
   "main": "main.js",
   "scripts": {
     "start": "ts-node ./src/server.ts"
   },
-  "keywords": ["draw.io", "app.diagrams.net", "diagram as code"],
+  "keywords": [
+    "draw.io",
+    "app.diagrams.net",
+    "diagram as code"
+  ],
   "author": "birdflu",
   "license": "ISC",
   "devDependencies": {
@@ -20,7 +24,8 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "xml": "^1.0.1",
-    "pako": "^2.0.4"
+    "open": "^8.4.0",
+    "pako": "^2.0.4",
+    "xml": "^1.0.1"
   }
 }

@@ -159,7 +159,7 @@
   ],
   "settings": {
     "diagram_layout": {
-      "nested": "centerList"
+      "nested": "square"
     },
     "log_warnings": true,
     "use_quick_intersect_detection": true,

@@ -24,10 +24,13 @@ export default class Diagram {
     const output = data['settings']['output'];
 
     if ("response" === output) {
-      response.send(url);
+      writeToFile('./etc/result/url.txt', url);
+
+      const open = require('open');
+      open(url);
+      response.send("open in browser\n");
     } else {
       writeToFile('./etc/result/diagram.xml', result);
-      writeToFile('./etc/result/url.txt', url);
       response.send("OK\n");
     }
 
